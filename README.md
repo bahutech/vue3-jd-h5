@@ -89,27 +89,13 @@ gankaideMacBook-Pro:vue-jd-h5 gankai$ git branch -a
 
 ## Initialization of the project
 
-💡If you are slow when installing the package, it is because the NPM server is abroad. Here is a tool for you to switch NPM mirroring at any time. 👉[NRM](https://www.npmjs.com/package/nrm), sometimes when we are developing, in order to speed up the installation of the installation package, we need to switch the mirror source to domestic, but if we need to publish some of our own components to NPM, we have to switch back and forth again. With this We are much more convenient! Use `$ npm install -g nrm` to install globally, and then use `nrm ls` to view all mirrors:
-
-```bash
-gankaideMacBook-Pro:~ gankai$ nrm ls
-
-  npm -------- https://registry.npmjs.org/
-* yarn ------- https://registry.yarnpkg.com/
-  cnpm ------- http://r.cnpmjs.org/
-  taobao ----- https://registry.npm.taobao.org/
-  nj --------- https://registry.nodejitsu.com/
-  npmMirror -- https://skimdb.npmjs.com/registry/
-  edunpm ----- http://registry.enpmjs.org/
-```
-
-If you need to use Taobao mirror, execute: `nrm use taobao` You can switch the source at any time, of course, there is also an npm package version management tool [nvm](https://github.com/nvm-sh/nvm), mainly for management In the package version, if you are interested, you can find out for yourself, here is not a long time 😊!
+⚠️ use node v16.20.2
 
 ### Installation
 
 Enter the root directory of the project that was cloned just now, install related dependencies, and experience the new features of vue3.
 
-`npm` installation:
+`npm` installation(node v16.20.2):
 
 ```javascript
 npm install
@@ -340,7 +326,7 @@ When we need to manipulate the DOM, such as when we use `swiper` in a project to
    </div>
 ```
 
-Then define a `const mySwiper = ref(null);` in the `setup` function. Previously in vue2.x, we used `this.$refs.mySwiper` to get the DOM object. Now you can also use `ref Instead of `function, the returned `mySwiper` should be the same as the `ref` bound in the `template`!
+Then define a `const mySwiper = ref(null);` in the `setup` function. Previously in vue2.x, we used `this.$refs.mySwiper` to get the DOM object. Now you can also use `ref Instead of`function, the returned `mySwiper` should be the same as the `ref` bound in the `template`!
 
 ```javascript
 import { ref, onMounted } from "@vue/composition-api";
