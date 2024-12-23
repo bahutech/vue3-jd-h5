@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="white-btn"></svg-icon>
       </span>
-      <div class="header-content">我的订单</div>
+      <div class="header-content">my order</div>
     </header>
     <list-scroll :scroll-data="categoryData" :scrollX="true">
       <section class="order-tag" ref="searchWrap">
@@ -12,43 +12,43 @@
           :class="{ active: orderType === 1 }"
           data-type="1"
           @click="selectTag"
-          >全部(5)</span
+          >all(5)</span
         >
         <span
           :class="{ active: orderType === 2 }"
           data-type="2"
           @click="selectTag"
-          >已取消(1)</span
+          >Canceled(1)</span
         >
         <span
           :class="{ active: orderType === 3 }"
           data-type="3"
           @click="selectTag"
-          >待支付(1)</span
+          >To be paid(1)</span
         >
         <span
           :class="{ active: orderType === 4 }"
           data-type="4"
           @click="selectTag"
-          >待发货(1)</span
+          >Awaiting shipment(1)</span
         >
         <span
           :class="{ active: orderType === 5 }"
           data-type="5"
           @click="selectTag"
-          >已支付(1)</span
+          >paid(1)</span
         >
         <span
           :class="{ active: orderType === 6 }"
           data-type="6"
           @click="selectTag"
-          >已完成(1)</span
+          >Completed(1)</span
         >
         <span
           :class="{ active: orderType === 7 }"
           data-type="7"
           @click="selectTag"
-          >待收货(1)</span
+          >Awaiting receipt(1)</span
         >
       </section>
     </list-scroll>
@@ -60,19 +60,19 @@
               src="../../assets/image/product/store-headerM.png"
               class="header-img"
             />
-            <span>店铺名称</span>
+            <span>Store name</span>
           </div>
-          <span>待支付</span>
+          <span>To be paid</span>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
+              <span>Nazha's new look</span>
               <span>$248</span>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
@@ -82,8 +82,8 @@
           <i>$496</i>
         </li>
         <li class="order-btn">
-          <router-link tag="span" to="/order/cancelOrder">取消订单</router-link>
-          <router-link tag="span" to="/order/orderDetail">去支付</router-link>
+          <router-link tag="span" to="/order/cancelOrder">Cancel order</router-link>
+          <router-link tag="span" to="/order/orderDetail">to pay</router-link>
         </li>
       </ul>
     </section>
@@ -95,30 +95,30 @@
               src="../../assets/image/product/store-headerM.png"
               class="header-img"
             />
-            <span>店铺名称</span>
-            <span>订单号:201905211540350025</span>
+            <span>Store name</span>
+            <span>Order number:201905211540350025</span>
           </div>
-          <span>已支付</span>
+          <span>paid</span>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
+              <span>Nazha's new look</span>
               <span>$248</span>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
         </li>
         <li class="order-count">
-          <span>共2件商品,小计:</span>
+          <span>2 items in total,Subtotal:</span>
           <i>$496</i>
         </li>
         <li class="order-btn">
-          <router-link to="/order/appeal" tag="span">申诉</router-link>
+          <router-link to="/order/appeal" tag="span">appeal</router-link>
         </li>
       </ul>
     </section>
@@ -130,30 +130,30 @@
               src="../../assets/image/product/store-headerM.png"
               class="header-img"
             />
-            <span>店铺名称</span>
-            <span>订单号:201905211540350025</span>
+            <span>Store name</span>
+            <span>Order number:201905211540350025</span>
           </div>
-          <span>已取消</span>
+          <span>Canceled</span>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
+              <span>Nazha's new look</span>
               <span>$248</span>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
         </li>
         <li class="order-count">
-          <span>共2件商品,小计:</span>
+          <span>2 items in total,Subtotal:</span>
           <i>$496</i>
         </li>
         <li class="order-btn">
-          <router-link to="/order/appeal" tag="span">申诉</router-link>
+          <router-link to="/order/appeal" tag="span">appeal</router-link>
         </li>
       </ul>
     </section>
@@ -165,30 +165,30 @@
               src="../../assets/image/product/store-headerM.png"
               class="header-img"
             />
-            <span>店铺名称</span>
-            <span>订单号:201905211540350025</span>
+            <span>Store name</span>
+            <span>Order number:201905211540350025</span>
           </div>
-          <span>待发货</span>
+          <span>Awaiting shipment</span>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
+              <span>Nazha's new look</span>
               <span>$248</span>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
         </li>
         <li class="order-count">
-          <span>共2件商品,小计:</span>
+          <span>2 items in total,Subtotal:</span>
           <i>$496</i>
         </li>
         <li class="order-btn">
-          <router-link to="/order/appeal" tag="span">申诉</router-link>
+          <router-link to="/order/appeal" tag="span">appeal</router-link>
         </li>
       </ul>
     </section>
@@ -200,33 +200,33 @@
               src="../../assets/image/product/store-headerM.png"
               class="header-img"
             />
-            <span>店铺名称</span>
-            <span>订单号:201905211540350025</span>
+            <span>Store name</span>
+            <span>Order number:201905211540350025</span>
           </div>
-          <span>已完成</span>
+          <span>Completed</span>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
+              <span>Nazha's new look</span>
               <span>$248</span>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
         </li>
         <li class="order-count">
-          <span>共2件商品,小计:</span>
+          <span>2 items in total,Subtotal:</span>
           <i>$496</i>
         </li>
         <li class="order-btn">
           <router-link to="/order/viewLogistics" tag="span"
-            >查看物流</router-link
+            >check logistics</router-link
           >
-          <router-link to="/order/appeal" tag="span">商品申诉</router-link>
+          <router-link to="/order/appeal" tag="span">Product complaints</router-link>
         </li>
       </ul>
     </section>
@@ -238,39 +238,39 @@
               src="../../assets/image/product/store-headerM.png"
               class="header-img"
             />
-            <span>店铺名称</span>
-            <span>订单号:201905211540350025</span>
+            <span>Store name</span>
+            <span>Order number:201905211540350025</span>
           </div>
-          <span>待收货</span>
+          <span>Awaiting receipt</span>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
+              <span>Nazha's new look</span>
               <span>$248</span>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
         </li>
         <li class="order-count">
-          <span>共2件商品,小计:</span>
+          <span>2 items in total,Subtotal:</span>
           <i>$496</i>
         </li>
         <li class="order-btn">
           <router-link to="/order/viewLogistics" tag="span"
-            >查看物流</router-link
+            >check logistics</router-link
           >
-          <router-link to="/order/appeal" tag="span">商品申诉</router-link>
+          <router-link to="/order/appeal" tag="span">Product complaints</router-link>
         </li>
       </ul>
     </section>
     <section class="may-like">
       <ul class="like-list">
-        <span class="like-title">猜你喜欢</span>
+        <span class="like-title">Guess you like</span>
         <li class="like-item">
           <img class="item-picture" />
           <div class="item-detail">
@@ -279,12 +279,12 @@
                 src="../../assets/image/product/store-headerM.png"
                 class="header-img"
               />
-              <label>店铺名称</label>
+              <label>Store name</label>
             </p>
-            <p class="item-title">娜扎新装LOOK</p>
+            <p class="item-title">Nazha's new look</p>
             <p class="item-count">
               <i>$248</i>
-              <span>月销:888</span>
+              <span>monthly sales:888</span>
             </p>
           </div>
         </li>
@@ -296,12 +296,12 @@
                 src="../../assets/image/product/store-headerM.png"
                 class="header-img"
               />
-              <label>店铺名称</label>
+              <label>Store name</label>
             </p>
-            <p class="item-title">娜扎新装LOOK</p>
+            <p class="item-title">Nazha's new look</p>
             <p class="item-count">
               <i>$248</i>
-              <span>月销:888</span>
+              <span>monthly sales:888</span>
             </p>
           </div>
         </li>

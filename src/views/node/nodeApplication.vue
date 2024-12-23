@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <img src="../../assets/icons/left-green-white.png" />
       </span>
-      <div class="header-content">节点申请</div>
+      <div class="header-content">Node application</div>
     </header>
     <main class="apply-main">
       <ul class="main-lists">
@@ -14,23 +14,23 @@
         </li>
         <router-link tag="li" to="/node/areaNode" class="list-item">
           <img src="../../assets/image/product/area-node.png" />
-          <span class="node-text">区域节点</span>
+          <span class="node-text">Regional node</span>
         </router-link>
         <router-link tag="li" to="/node/cityNode" class="list-item">
           <img src="../../assets/image/product/municipal-node.png" />
-          <span class="node-text">城市节点</span>
+          <span class="node-text">city ​​node</span>
         </router-link>
         <router-link tag="li" to="/node/stateNode" class="list-item">
           <img src="../../assets/image/product/state-node.png" />
-          <span class="node-text">州级节点</span>
+          <span class="node-text">State level node</span>
         </router-link>
         <router-link tag="li" to="/node/industryNode" class="list-item">
           <img src="../../assets/image/product/industry-node.png" />
-          <span class="node-text">行业节点</span>
+          <span class="node-text">Industry node</span>
         </router-link>
         <router-link tag="li" to="/node/superNode" class="list-item">
           <img src="../../assets/image/product/super-node.png" />
-          <span class="node-text">超级节点</span>
+          <span class="node-text">super node</span>
         </router-link>
       </ul>
     </main>
@@ -38,7 +38,7 @@
     <van-dialog
       class="node-dialog"
       v-model="show"
-      title="确认支付"
+      title="Confirm payment"
       close-on-click-overlay
       confirmButtonColor="#3A3A3A"
       confirm-button-color="#FCE14B"
@@ -47,7 +47,7 @@
     >
       <ul class="dialog-content">
         <li class="content-tips">
-          <span>确认支付1003 USDT成为分享节点？</span>
+          <span>Confirm payment 1003 Will USDT become a sharing node?</span>
         </li>
         <li class="content-count">
           <span>USDT</span>
@@ -55,7 +55,7 @@
         </li>
         <li class="coin-pay">
           <div>
-            <label>支付</label>
+            <label>pay</label>
           </div>
           <span
             @click="handleShow"
@@ -72,7 +72,7 @@
           ref="droplist"
         ></drop-list>
         <li class="content-btn">
-          <span class="know-btn" @click="handleClose">确认</span>
+          <span class="know-btn" @click="handleClose">confirm</span>
         </li>
       </ul>
     </van-dialog>
@@ -106,7 +106,7 @@ export default {
             action: this.handleCoinPay
           },
           {
-            text: "支付宝",
+            text: "Alipay",
             icon: "alipay-icon",
             action: this.handleAlipay
           }

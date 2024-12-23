@@ -5,7 +5,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="white-btn"></svg-icon>
       </span>
-      <div class="header-content">订单详情</div>
+      <div class="header-content">Order details</div>
     </header>
 
     <section class="order-card">
@@ -16,19 +16,19 @@
               src="../../assets/image/product/store-headerM.png"
               class="header-img"
             />
-            <span>店铺名称</span>
+            <span>Store name</span>
           </div>
-          <span>待收货</span>
+          <span>Awaiting receipt</span>
         </li>
         <li class="order-desc">
           <img />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
-              <i>￥222</i>
+              <span>Nazha's new look</span>
+              <i>Br. 222</i>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
@@ -38,12 +38,12 @@
           <i>$444</i>
         </li>
         <li class="order-count">
-          <span>实付款：</span>
-          <i>￥444</i>
+          <span>Actual payment:</span>
+          <i>Br. 444</i>
         </li>
         <li class="order-btn">
           <router-link to="/order/viewLogistics" tag="span"
-            >查看物流</router-link
+            >check logistics</router-link
           >
           <!-- <router-link to="/order/appeal" tag="span">商品申诉</router-link> -->
         </li>
@@ -53,22 +53,22 @@
       <ul class="info-list">
         <li class="info-title">
           <svg-icon icon-class="order-info"></svg-icon>
-          <span>订单信息</span>
+          <span>Order information</span>
         </li>
         <li class="info-item">
-          <label>订单编号：</label>
+          <label>Order number:</label>
           <span>201905211540350025</span>
         </li>
         <li class="info-item">
-          <label>支付单号：</label>
+          <label>Payment order number:</label>
           <span>201905211540350025</span>
         </li>
         <li class="info-item">
-          <label>创建时间：</label>
+          <label>Creation time:</label>
           <span>2019/05/01 13:40:40</span>
         </li>
         <li class="info-item">
-          <label>付款时间：</label>
+          <label>Payment time:</label>
           <span>2019/05/01 13:40:40</span>
         </li>
         <li class="info-title">

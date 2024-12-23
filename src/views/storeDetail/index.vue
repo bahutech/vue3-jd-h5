@@ -87,7 +87,7 @@
               <img :src="item.imgSrc" />
               <div class="goods-layout">
                 <div class="goods-title">{{ item.itemTitle }}</div>
-                <span class="goods-div">限量套装 新品上市</span>
+                <span class="goods-div">limited set New product launch</span>
                 <div class="goods-desc">
                   <span class="goods-price">
                     <i>{{ item.itemPrice }}</i>
@@ -117,37 +117,37 @@ export default {
         {
           id: 0,
           imgSrc: require("../../assets/image/home/test8.png"),
-          itemTitle: "娜扎新装LOOK",
+          itemTitle: "Nazha's new look",
           itemPrice: "$248"
         },
         {
           id: 1,
           imgSrc: require("../../assets/image/home/test9.png"),
-          itemTitle: "娜扎新装LOOK",
+          itemTitle: "Nazha's new look",
           itemPrice: "$248"
         },
         {
           id: 2,
           imgSrc: require("../../assets/image/home/test3.png"),
-          itemTitle: "时尚双肩包",
+          itemTitle: "fashionable backpack",
           itemPrice: "$248"
         },
         {
           id: 3,
           imgSrc: require("../../assets/image/home/test4.png"),
-          itemTitle: "商务行李箱",
+          itemTitle: "business suitcase",
           itemPrice: "$248"
         },
         {
           id: 4,
           imgSrc: require("../../assets/image/home/test5.png"),
-          itemTitle: "无线消噪耳机",
+          itemTitle: "wireless noise canceling headphones",
           itemPrice: "$248"
         },
         {
           id: 4,
           imgSrc: require("../../assets/image/home/test6.png"),
-          itemTitle: "无线蓝牙耳机",
+          itemTitle: "wireless bluetooth headphones",
           itemPrice: "$248"
         }
       ]

@@ -4,32 +4,32 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="white-btn"></svg-icon>
       </span>
-      <div class="header-content">取消原因</div>
-      <router-link class="appeal-record" to="/order/appealRecord" tag="span">申诉记录</router-link>
+      <div class="header-content">Reason for cancellation</div>
+      <router-link class="appeal-record" to="/order/appealRecord" tag="span">Appeal record</router-link>
     </header>
     <div class="content-box">
       <span class="icon-svg" @click="$router.go(-1)">
         <svg-icon icon-class="sigh"></svg-icon>
       </span>
-      <i>订单取消成功</i>
+      <i>Order canceled successfully</i>
     </div>
     <section class="reason-list">
       <div class="item-content">
         <van-radio-group v-model="radio">
           <van-cell-group>
-            <van-cell title="想了想，我不想要了" clickable @click="radio = '1'">
+            <van-cell title="After thinking about it, I don’t want it anymore" clickable @click="radio = '1'">
               <van-radio slot="right-icon" checked-color="#91C95B" name="1" />
             </van-cell>
-            <van-cell title="买多了/买错了" clickable @click="radio = '2'">
+            <van-cell title="Buy Wrong purchase much/买错了" clickable @click="radio = '2'">
               <van-radio slot="right-icon" checked-color="#91C95B" name="2" />
             </van-cell>
-            <van-cell title="支付遇到问题" clickable @click="radio = '3'">
+            <van-cell title="Problem with payment" clickable @click="radio = '3'">
               <van-radio slot="right-icon" checked-color="#91C95B" name="3" />
             </van-cell>
-            <van-cell title="地址填写错误" clickable @click="radio = '4'">
+            <van-cell title="Wrong address" clickable @click="radio = '4'">
               <van-radio slot="right-icon" checked-color="#91C95B" name="4" />
             </van-cell>
-            <van-cell title="其他原因" clickable @click="radio = '5'"></van-cell>
+            <van-cell title="other reasons" clickable @click="radio = '5'"></van-cell>
           </van-cell-group>
         </van-radio-group>
         <van-field
@@ -45,8 +45,8 @@
       </div>
     </section>
     <div class="pay-btn">
-      <div class="pay-count">请选择取消订单原因，帮助我们改进，提高服务</div>
-      <van-button type="danger" size="large">提交</van-button>
+      <div class="pay-count">Please select the reason for canceling the order to help us improve and improve our service</div>
+      <van-button type="danger" size="large">submit</van-button>
     </div>
   </div>
 </template>
@@ -57,11 +57,11 @@ export default {
   data() {
     return {
       columns: [
-        "想了想，我不想要了",
-        "买多了/买错了",
-        "支付遇到问题",
-        "地址填写错误",
-        "其他原因"
+        "Think about it, I don't want it anymore",
+        "Bought too much/bought the wrong thing",
+        "There was a problem with payment",
+        "Address filled in incorrectly",
+        "other reasons"
       ],
       value: "",
       remnant: 0,

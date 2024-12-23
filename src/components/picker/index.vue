@@ -3,8 +3,8 @@
     <transition name="fade">
       <div class="area_ctrl" v-if="isOpened > 0" v-show="show">
         <div class="area_btn_box">
-          <div class="area_btn larea_cancel" @click="close">取消</div>
-          <div class="area_btn larea_finish" @click="finish">确定</div>
+          <div class="area_btn larea_cancel" @click="close">Cancel</div>
+          <div class="area_btn larea_finish" @click="finish">Ok</div>
         </div>
         <div class="area_roll_mask">
           <div class="area_roll">

@@ -5,27 +5,26 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="white-btn"></svg-icon>
       </span>
-      <div class="header-content">订单详情</div>
-    </header>
+<div class="header-content">Order details</div>    </header>
 
     <section class="order-card">
       <ul class="order-list">
         <li class="list-item">
           <div class="store-info">
             <img src="../../assets/image/product/store-headerM.png" class="header-img" />
-            <span>店铺名称</span>
+            <span>Store name</span>
           </div>
-          <span>待支付</span>
+          <span>To be paid</span>
         </li>
         <li class="item-info">
           <img />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
-              <i>￥222</i>
+              <span>Nazha's new look</span>
+              <i>Br. 222</i>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
@@ -36,7 +35,7 @@
         </li>
         <li class="real-pay">
           <span>实付款：</span>
-          <i>￥444</i>
+          <i>Br. 444</i>
         </li>
       </ul>
     </section>
@@ -44,21 +43,21 @@
       <ul class="info-list">
         <li class="info-title">
           <svg-icon icon-class="order-info"></svg-icon>
-          <span>订单信息</span>
+          <span>Order information</span>
         </li>
         <li class="info-item">
-          <label>订单编号：</label>
+          <label>Order number:</label>
           <span>201905211540350025</span>
         </li>
         <li class="info-item">
-          <label>创建时间：</label>
+          <label>Creation time:</label>
           <span>2019/05/01 13:40:40</span>
         </li>
         <li class="receiver-addres">
           <svg-icon icon-class="shipping-address"></svg-icon>
           <div class="address-content">
             <label>收货人：咋地 13545900066</label>
-            <span>广东省深圳市南山区科研路1001号比科大厦</span>
+            <span>Biko Building, No. 1001 Keyan Road, Nanshan District, Shenzhen City, Guangdong Province</span>
           </div>
         </li>
       </ul>
@@ -75,12 +74,12 @@
     <div class="pay-btn">
       <div class="pay-count">
         <span>
-          共2件商品，小计：
-          <i>￥222</i>
+          2 items in total, subtotal:
+          <i>Br. 222</i>
         </span>
-        <span>59：59后取消订单</span>
+        <span>59: Cancel order after 59</span>
       </div>
-      <van-button type="danger" @click="handlePay" size="large">立即支付</van-button>
+      <van-button type="danger" @click="handlePay" size="large">Pay now</van-button>
     </div>
   </div>
 </template>

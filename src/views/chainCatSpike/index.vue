@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <img src="../../assets/icons/left-green-white.png" alt />
       </span>
-      <div class="header-content">链猫秒杀</div>
+      <div class="header-content">Chain cat flash kill</div>
       <div class="option-btns">
         <router-link to="/search" class="search-btn" tag="span">
           <svg-icon class="search-icon" icon-class="search"></svg-icon>
@@ -44,18 +44,18 @@
                 </li>
                 <div class="item-bottom">
                   <li class="item-low-price">
-                    <i>历史最低价</i>
+                    <i>historical low price</i>
                   </li>
                   <li class="item-desc">
                     <b class="item-price">{{ item.price }}</b>
-                    <button v-if="tab.name === '抢购中'" class="my-btn">去抢购</button>
-                    <button v-else class="remind-me-btn">提醒我</button>
+                    <button v-if="tab.name === 'On sale'" class="my-btn">Go shopping</button>
+                    <button v-else class="remind-me-btn">remind me</button>
                   </li>
                   <li class="item-desc">
                     <del class="item-del">{{ item.oldPrice }}</del>
                     <progress-bar v-if="tab.name == '抢购中'"></progress-bar>
                     <!-- <progress v-if="tab.name == '抢购中'" class="lm-progress" value="22" max="100"></progress> -->
-                    <i v-else class="set-reminder">200已设置提醒</i>
+                    <i v-else class="set-reminder">200Already set reminder</i>
                   </li>
                 </div>
               </ul>
@@ -80,35 +80,35 @@
             padding: '0 10px',
             margin: '15px 0'
           }"
-        >分享到</van-divider>
+        >Share to</van-divider>
         <ul class="share-list">
           <li class="share-item">
             <svg-icon icon-class="we-char"></svg-icon>
-            <span class="share-text">微信好友</span>
+            <span class="share-text">WeChat friends</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="we-chat-friends"></svg-icon>
-            <span class="share-text">朋友圈</span>
+            <span class="share-text">Moments</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="we-blog"></svg-icon>
-            <span class="share-text">新浪微博</span>
+            <span class="share-text">Sina Weibo</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="qq-icon"></svg-icon>
-            <span class="share-text">QQ好友</span>
+            <span class="share-text">QQ friends</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="qq-space"></svg-icon>
-            <span class="share-text">QQ空间</span>
+            <span class="share-text">QQ space</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="copy-link"></svg-icon>
-            <span class="share-text">复制链接</span>
+            <span class="share-text">Copy link</span>
           </li>
         </ul>
         <li class="cancle-btn" @click="show = false">
-          <b class="cancle-text">取消</b>
+          <b class="cancle-text">Cancel</b>
         </li>
       </article>
     </van-popup>
@@ -136,9 +136,9 @@ export default {
         width: "33%", // 设置宽度
         list: [
           // 设置下拉列表数据和对应的点击事件
-          { text: "分享", icon: "share-btn-black", action: this.handleShare },
+          { text: "share", icon: "share-btn-black", action: this.handleShare },
           {
-            text: "我的提醒",
+            text: "my reminder",
             icon: "my-reminder",
             action: this.handleMyReminder
           }
@@ -146,91 +146,91 @@ export default {
       },
       cardList: [
         {
-          title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
-          name: "迪丽热巴同款",
-          price: "￥200",
-          oldPrice: "￥400"
+          title: "[Hyaluronic acid super hydrating new facial mask] If you want to send a large amount, send it to SF Express",
+          name: "Dilireba's same style",
+          price: "Br. 200",
+          oldPrice: "Br. 400"
         },
         {
-          title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
-          name: "迪丽热巴同款",
-          price: "￥200",
-          oldPrice: "￥400"
+          title: "[Hyaluronic acid super hydrating new facial mask] If you want to send a large amount, send it to SF Express",
+          name: "Dilireba's same style",
+          price: "Br. 200",
+          oldPrice: "Br. 400"
         },
         {
-          title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
-          name: "迪丽热巴同款",
-          price: "￥200",
-          oldPrice: "￥400"
+          title: "[Hyaluronic acid super hydrating new facial mask] If you want to send a large amount, send it to SF Express",
+          name: "Dilireba's same style",
+          price: "Br. 200",
+          oldPrice: "Br. 400"
         },
         {
-          title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
+          title: "[Hyaluronic acid super hydrating new facial mask] If you want to send a large amount, send it to SF Express",
           name: "迪丽热巴同款",
-          price: "￥200"
+          price: "Br. 200"
         },
         {
-          title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
-          name: "迪丽热巴同款",
-          price: "￥200"
+          title: "[Hyaluronic acid super hydrating new facial mask] If you want to send a large amount, send it to SF Express",
+          name: "Dilireba's same style",
+          price: "Br. 200"
         }
       ],
       tabList: [
         {
           title: "10:00",
-          name: "抢购中"
+          name: "On sale"
         },
         {
           title: "12:00",
-          name: "即将开始"
+          name: "About to start"
         },
         {
           title: "14:00",
-          name: "即将开始"
+          name: "About to start"
         },
         {
           title: "16:00",
-          name: "即将开始"
+          name: "About to start"
         },
         {
           title: "18:00",
-          name: "即将开始"
+          name: "About to start"
         }
       ],
       list: [
         {
-          name: "多功能料理机",
+          name: "Multifunctional food processor",
           img: require("../../assets/image/home/test1.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$125"
         },
         {
-          name: "遥控制空调扇",
+          name: "Remote control air conditioning fan",
           img: require("../../assets/image/home/test2.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$245"
         },
         {
-          name: "时尚双肩包",
+          name: "fashionable backpack",
           img: require("../../assets/image/home/test3.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$21"
         },
         {
-          name: "商务行李箱",
+          name: "business suitcase",
           img: require("../../assets/image/home/test4.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$218"
         },
         {
-          name: "无线消噪耳机",
+          name: "wireless noise canceling headphones",
           img: require("../../assets/image/home/test5.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$218"
         },
         {
-          name: "无线蓝牙耳机",
+          name: "wireless bluetooth headphones",
           img: require("../../assets/image/home/test6.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$218"
         }
       ],

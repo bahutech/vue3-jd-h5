@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="green-btn"></svg-icon>
       </span>
-      <div class="header-content">交易详情</div>
+      <div class="header-content">Transaction details</div>
     </header>
     <section class="card-box">
       <ul class="card-content">
@@ -12,36 +12,36 @@
           <svg-icon icon-class="pay-success"></svg-icon>
         </li>
         <li class="pay-text">
-          <span>1099 TOP</span>
+          <span>THANK YOU</span>
         </li>
         <li class="pay-tips">
-          <span>支付成功</span>
+          <span>Payment successful</span>
         </li>
       </ul>
       <ul class="list-info">
         <li class="item-info">
-          <label>商品</label>
-          <span>古力娜扎的新装</span>
+          <label>merchandise</label>
+          <span>Gulinaza’s new outfit</span>
         </li>
         <li class="item-info">
-          <label>支付方式</label>
-          <span>TOP支付</span>
+          <label>Payment method</label>
+          <span>TOP payment</span>
         </li>
         <li class="item-info">
-          <label>支付单号</label>
+          <label>Payment order number</label>
           <span>101010101010101010</span>
         </li>
         <li class="item-info">
-          <label>成交时间</label>
-          <span>2019年06月06日 16:36:33</span>
+          <label>Transaction time</label>
+          <span>Dec, 2024 16:36:33</span>
         </li>
       </ul>
       <div class="login-register-btns">
         <router-link class="register-btn" to="/classify" tag="span"
-          >完成</router-link
+          >Finish</router-link
         >
         <router-link class="login-btn" to="/storeDetail" tag="span"
-          >返回商家</router-link
+          >Return to merchant</router-link
         >
       </div>
     </section>

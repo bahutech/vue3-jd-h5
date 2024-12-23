@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="green-btn"></svg-icon>
       </span>
-      <div class="header-content">手机号设置</div>
+      <div class="header-content">Mobile phone number settings</div>
     </header>
     <section class="address-content">
       <ul class="address-list">
@@ -18,27 +18,27 @@
         </li>
         <li class="address-item">
           <div class="address-name">
-            <van-field v-model="value" placeholder="请输入手机号" />
+            <van-field v-model="value" placeholder="Please enter mobile phone number" />
             <div class="verification-code">
-              <van-tag color="#3C96FF" plain>获取验证码</van-tag>
+              <van-tag color="#3C96FF" plain>Get verification code</van-tag>
             </div>
           </div>
         </li>
         <li class="address-item">
-          <van-field v-model="value" placeholder="验证码" />
+          <van-field v-model="value" placeholder="Verification code" />
         </li>
         <li class="address-item">
-          <van-field v-model="value" placeholder="密码" />
+          <van-field v-model="value" placeholder="password" />
         </li>
         <li class="address-item">
-          <van-field v-model="value" placeholder="再次确认" />
+          <van-field v-model="value" placeholder="Confirm again" />
         </li>
       </ul>
     </section>
 
     <div class="address-btn">
       <router-link to="/mine/addAddress">
-        <van-button type="danger" size="large">保存</van-button>
+        <van-button type="danger" size="large">keep</van-button>
       </router-link>
     </div>
   </div>

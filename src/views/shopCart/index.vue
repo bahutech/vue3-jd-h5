@@ -1,9 +1,9 @@
 <template>
   <div class="shop-cart">
     <header class="page-header">
-      <div class="header-content">购物车</div>
-      <span v-if="cartMode === false" class="appeal-record" @click="setCartMode">完成</span>
-      <span v-if="cartMode === true" class="appeal-record" @click="setCartMode">编辑</span>
+      <div class="header-content">shopping cart</div>
+      <span v-if="cartMode === false" class="appeal-record" @click="setCartMode">Finish</span>
+      <span v-if="cartMode === true" class="appeal-record" @click="setCartMode">edit</span>
     </header>
     <section class="cart-empty" v-if="clearCart === true">
       <ul class="empty-content">
@@ -11,11 +11,11 @@
           <svg-icon icon-class="shopping-cart"></svg-icon>
         </li>
         <li class="item-text">
-          <p>您的购物车空空的哦~</p>
-          <p>去看看心仪的商品吧~</p>
+          <p>Your shopping cart is empty~</p>
+          <p>Go check out your favorite products~</p>
         </li>
         <li class="item-btn">
-          <router-link to="/classify" class="hairline-btn" tag="span">立即去购物</router-link>
+          <router-link to="/classify" class="hairline-btn" tag="span">Go shopping now</router-link>
         </li>
       </ul>
     </section>
@@ -25,7 +25,7 @@
           <li class="checkbox-all">
             <div class="store-info">
               <img src="../../assets/image/product/store-headerM.png" class="header-img" />
-              <span>店铺名称</span>
+              <span>Store name</span>
             </div>
           </li>
         </van-checkbox>
@@ -39,20 +39,20 @@
               <li class="order-detail">
                 <ul>
                   <li class="info-one">
-                    <span>三彩预售新款短裙淑女裙淑女裙淑女裙淑女</span>
+                    <span>Three-color pre-sale new short skirt, lady skirt, lady skirt, lady skirt, lady skirt</span>
                   </li>
                   <li class="info-two">
-                    <span>型号;规格;颜色;</span>
+                    <span>model;Specification;color;</span>
                   </li>
                 </ul>
                 <div class="info-count">
-                  <span>￥200</span>
+                  <span>Br. 200</span>
                   <van-stepper v-model="stepperValue" />
                 </div>
               </li>
             </div>
             <div class="order-total">
-              <label>合计：</label>
+              <label>total:</label>
               <span>123000</span>
             </div>
           </ul>
@@ -63,7 +63,7 @@
           <li class="checkbox-all">
             <div class="store-info">
               <img src="../../assets/image/product/store-headerM.png" class="header-img" />
-              <span>店铺名称</span>
+              <span>Store name</span>
             </div>
           </li>
         </van-checkbox>
@@ -90,7 +90,7 @@
               </li>
             </div>
             <div class="order-total">
-              <label>合计：</label>
+              <label>total:</label>
               <span>{{ item.total }}</span>
             </div>
           </ul>
@@ -99,13 +99,13 @@
     </div>
     <div v-if="clearCart === false">
       <section v-if="cartMode" class="options-edit">
-        <van-submit-bar :price="20000" button-text="结算" @submit="submitSettlement">
-          <van-checkbox v-model="checked" checked-color="#91C95B">全选</van-checkbox>
+        <van-submit-bar :price="2000" button-text="Settlement" @submit="submitSettlement">
+          <van-checkbox v-model="checked" checked-color="#91C95B">Select all</van-checkbox>
         </van-submit-bar>
       </section>
       <section v-else class="options-delete">
-        <van-submit-bar button-text="删除" @submit="submitDelete">
-          <van-checkbox v-model="checked" checked-color="#91C95B">全选</van-checkbox>
+        <van-submit-bar button-text="delete" @submit="submitDelete">
+          <van-checkbox v-model="checked" checked-color="#91C95B">Select all</van-checkbox>
         </van-submit-bar>
       </section>
     </div>
@@ -149,7 +149,7 @@ export default {
         duration: 1000, // 持续展示 toast
         forbidClick: true, // 禁用背景点击
         loadingType: "spinner",
-        message: "支付中..."
+        message: "Paying..."
       });
 
       setTimeout(() => {
@@ -159,7 +159,7 @@ export default {
 
     const submitDelete = async () => {
       await ctx.$dialog.confirm({
-        message: "确认删除这些商品？",
+        message: "Are you sure you want to delete these items?",
         confirmButtonColor: "#D8182D",
         cancelButtonColor: "#D8182D"
       });
@@ -184,7 +184,7 @@ export default {
       cartMode, // 购物车的模式，true 是显示出编辑按钮 false 是显示完成按钮,默认是false;
       defaultData: [
         {
-          text: "Top-Pay",
+          text: "telebirr",
           value: "Top-Pay"
         }
       ],
@@ -195,16 +195,16 @@ export default {
             value: "Top-Pay"
           },
           {
-            text: "支付宝",
-            value: "支付宝"
+            text: "Alipay",
+            value: "Alipay"
           },
           {
-            text: "微信",
-            value: "微信"
+            text: "telebirr",
+            value: "WeChat"
           },
           {
-            text: "银行卡",
-            value: "银行卡"
+            text: "Bank Card",
+            value: "bank card"
           }
         ]
       },
@@ -213,45 +213,45 @@ export default {
       lists: [
         {
           imgSrc: require("../../assets/image/shopCart/购物车-2.png"),
-          info: "型号;规格;颜色;",
-          price: "￥200",
+          info: "Model;Specification;Color;",
+          price: "Br. 200",
           total: "123000",
-          desc: "三彩预售新款短裙淑女裙淑女裙淑女裙淑女"
+          desc: "Three-color pre-sale new short skirt, lady skirt, lady skirt, lady skirt, lady skirt"
         },
         {
           imgSrc: require("../../assets/image/shopCart/购物车-3.png"),
-          info: "型号;规格;颜色;",
-          price: "￥200",
+          info: "Model;Specification;Color;",
+          price: "Br. 200",
           total: "123000",
-          desc: "三彩预售新款短裙淑女裙淑女裙淑女裙淑女"
+          desc: "Three-color pre-sale new short skirt, lady skirt, lady skirt, lady skirt, lady skirt"
         },
         {
           imgSrc: require("../../assets/image/shopCart/购物车-4.png"),
-          info: "型号;规格;颜色;",
-          price: "￥200",
+          info: "Model;Specification;Color;",
+          price: "Br. 200",
           total: "123000",
-          desc: "三彩预售新款短裙淑女裙淑女裙淑女裙淑女"
+          desc: "Three-color pre-sale new short skirt, lady skirt, lady skirt, lady skirt, lady skirt"
         },
         {
           imgSrc: require("../../assets/image/shopCart/购物车-5.png"),
-          info: "型号;规格;颜色;",
-          price: "￥200",
+          info: "Model;Specification;Color;",
+          price: "Br. 200",
           total: "123000",
-          desc: "三彩预售新款短裙淑女裙淑女裙淑女裙淑女"
+          desc: "Three-color pre-sale new short skirt, lady skirt, lady skirt, lady skirt, lady skirt"
         },
         {
           imgSrc: require("../../assets/image/shopCart/购物车-6.png"),
-          info: "型号;规格;颜色;",
-          price: "￥200",
+          info: "Model; specification; color;",
+          price: "Br. 200",
           total: "123000",
-          desc: "三彩预售新款短裙淑女裙淑女裙淑女裙淑女"
+          desc: "Three-color pre-sale new short skirt, lady skirt, lady skirt, lady skirt, lady skirt"
         },
         {
           imgSrc: require("../../assets/image/shopCart/购物车-7.png"),
-          info: "型号;规格;颜色;",
-          price: "￥200",
+          info: "Model; specification; color;",
+          price: "Br. 200",
           total: "123000",
-          desc: "三彩预售新款短裙淑女裙淑女裙淑女裙淑女"
+          desc: "Three-color pre-sale new short skirt, lady skirt, lady skirt, lady skirt, lady skirt"
         }
       ],
       checked,
@@ -278,7 +278,7 @@ export default {
     padding: 10px;
     .header-content {
       text-align: center;
-      font-size: 18px;
+      font-size: 10px;
       font-weight: 600;
       color: #3a3a3a;
     }
@@ -324,25 +324,25 @@ export default {
     ::v-deep .van-checkbox {
       padding-left: 24px;
       .van-checkbox__label {
-        font-size: 13px;
+        font-size: 9px;
         color: #949497;
       }
     }
     ::v-deep .van-submit-bar {
       .van-submit-bar__bar {
-        height: 44px;
-        line-height: 44px;
+        height: 34px;
+        line-height: 34px;
       }
       bottom: 50px;
       .van-submit-bar__text {
-        font-size: 17px;
+        font-size: 12px;
         color: #333333;
       }
     }
     ::v-deep .van-submit-bar__price {
       color: #d8182d;
-      font-size: 17px;
-      font-weight: 600;
+      font-size: 12px;
+      font-weight: 200;
       padding-left: 5px;
     }
   }
@@ -351,7 +351,7 @@ export default {
       padding-left: 24px;
       float: left;
       .van-checkbox__label {
-        font-size: 13px;
+        font-size: 9px;
         color: #949497;
       }
     }
@@ -359,22 +359,22 @@ export default {
       .van-submit-bar__bar {
         display: flex;
         justify-content: space-between;
-        height: 44px;
-        line-height: 44px;
+        height: 34px;
+        line-height: 34px;
       }
       bottom: 50px;
       .van-submit-bar__text {
-        font-size: 17px;
+        font-size: 12px;
         color: #333333;
       }
     }
   }
   ::v-deep .van-button--danger {
     background-color: #d8182d;
-    height: 44px;
-    line-height: 44px;
+    height: 34px;
+    line-height: 34px;
     .van-button__text {
-      font-size: 18px;
+      font-size: 12px;
     }
   }
   .order-card {

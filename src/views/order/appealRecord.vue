@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="white-btn"></svg-icon>
       </span>
-      <div class="header-content">申诉记录</div>
+      <div class="header-content">Appeal record</div>
     </header>
     <section class="order-card">
       <ul class="order-list">
@@ -14,30 +14,30 @@
               src="../../assets/image/product/store-headerM.png"
               class="header-img"
             />
-            <span>店铺名称</span>
+            <span>Store name</span>
           </div>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
-              <i>￥222</i>
+              <span>Nazha's new look</span>
+              <i>Br. 222</i>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
         </li>
         <li class="order-count">
-          <span>共2件商品,小计:</span>
-          <i>￥444</i>
+          <span>2 items in total,Subtotal:</span>
+          <i>Br. 444</i>
         </li>
         <li class="order-btn">
-          <i>申诉时间:2019-06-01 16:45:34</i>
+          <i>Appeal time:2019-06-01 16:45:34</i>
           <router-link to="/order/appealDetail" tag="span"
-            >查看详情</router-link
+            >check the details</router-link
           >
         </li>
       </ul>
@@ -50,30 +50,30 @@
               src="../../assets/image/product/store-headerM.png"
               class="header-img"
             />
-            <span>店铺名称</span>
+            <span>Store name</span>
           </div>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
-              <i>￥222</i>
+              <span>Nazha's new look</span>
+              <i>Br. 222</i>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
         </li>
         <li class="order-count">
-          <span>共2件商品,小计:</span>
-          <i>￥444</i>
+          <span>2 items in total,Subtotal:</span>
+          <i>Br. 444</i>
         </li>
         <li class="order-btn">
-          <i>申诉时间:2019-06-01 16:45:34</i>
+          <i>Appeal time:2019-06-01 16:45:34</i>
           <router-link to="/order/appealDetail" tag="span"
-            >查看详情</router-link
+            >check the details</router-link
           >
         </li>
       </ul>

@@ -112,19 +112,19 @@
           </li>
           <li class="share-item">
             <svg-icon icon-class="qq-icon"></svg-icon>
-            <span class="share-text">QQ好友</span>
+            <span class="share-text">QQ friends</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="qq-space"></svg-icon>
-            <span class="share-text">QQ空间</span>
+            <span class="share-text">QQ space</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="copy-link"></svg-icon>
-            <span class="share-text">复制链接</span>
+            <span class="share-text">Copy link</span>
           </li>
         </ul>
         <li class="cancle-btn" @click="show = false">
-          <b class="cancle-text">取消</b>
+          <b class="cancle-text">Cancel</b>
         </li>
       </article>
     </van-popup>

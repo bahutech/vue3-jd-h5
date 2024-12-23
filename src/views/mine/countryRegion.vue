@@ -3,30 +3,30 @@
     <header class="header-box">
       <div class="header-search">
         <svg-icon class="search-icon" icon-class="search"></svg-icon>
-        <router-link tag="span" class="search-title" to="/search">搜索</router-link>
+        <router-link tag="span" class="search-title" to="/search">search</router-link>
       </div>
     </header>
     <section class="index-box">
       <van-index-bar :index-list="indexList" highlight-color="#2B8BFF">
         <van-index-anchor class="letter-idnex" index="Z">Z</van-index-anchor>
-        <van-cell title="中国+86" />
-        <van-cell title="中国香港+852" />
-        <van-cell title="中国香港+853" />
-        <van-cell title="中国台湾+886" />
+        <van-cell title="China+86" />
+        <van-cell title="Hong Kong, China+852" />
+        <van-cell title="Hong Kong, China+853" />
+        <van-cell title="Taiwan, China+886" />
 
         <van-index-anchor class="letter-idnex" index="G">G</van-index-anchor>
-        <van-cell title="冈比亚+220" />
-        <van-cell title="刚果+242" />
-        <van-cell title="哥伦比亚+57" />
-        <van-cell title="冈比亚+220" />
-        <van-cell title="刚果+242" />
-        <van-cell title="哥伦比亚+57" />
-        <van-cell title="冈比亚+220" />
-        <van-cell title="刚果+242" />
-        <van-cell title="哥伦比亚+57" />
-        <van-cell title="冈比亚+220" />
-        <van-cell title="刚果+242" />
-        <van-cell title="哥伦比亚+57" />
+        <van-cell title="Gambia+220" />
+        <van-cell title="Congo+242" />
+        <van-cell title="Colombia+57" />
+        <van-cell title="Gambia+220" />
+        <van-cell title="Congo+242" />
+        <van-cell title="Colombia+57" />
+        <van-cell title="Gambia+220" />
+        <van-cell title="Congo+242" />
+        <van-cell title="Colombia+57" />
+        <van-cell title="Gambia+220" />
+        <van-cell title="Congo+242" />
+        <van-cell title="Colombia+57" />
       </van-index-bar>
     </section>
   </div>

@@ -4,13 +4,13 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="green-btn"></svg-icon>
       </span>
-      <div class="header-content">邮箱设置</div>
+      <div class="header-content">Email settings</div>
     </header>
     <section class="address-content">
       <ul class="address-list">
         <li class="address-item">
           <div class="address-name">
-            <van-field v-model="value" placeholder="国家/地区" />
+            <van-field v-model="value" placeholder="nation/area" />
             <div>
               <svg-icon icon-class="arrow"></svg-icon>
             </div>
@@ -18,27 +18,27 @@
         </li>
         <li class="address-item">
           <div class="address-name">
-            <van-field v-model="value" placeholder="邮箱验证码" />
+            <van-field v-model="value" placeholder="Email verification code" />
             <div class="verification-code">
-              <van-tag color="#3C96FF" plain>获取验证码</van-tag>
+              <van-tag color="#3C96FF" plain>Get verification code</van-tag>
             </div>
           </div>
         </li>
         <li class="address-item">
-          <van-field v-model="value" placeholder="验证码" />
+          <van-field v-model="value" placeholder="Verification code" />
         </li>
         <li class="address-item">
-          <van-field v-model="value" placeholder="密码" />
+          <van-field v-model="value" placeholder="password" />
         </li>
         <li class="address-item">
-          <van-field v-model="value" placeholder="再次确认" />
+          <van-field v-model="value" placeholder="Confirm again" />
         </li>
       </ul>
     </section>
 
     <div class="address-btn">
       <router-link to="/mine/addAddress">
-        <van-button type="danger" size="large">设置</van-button>
+        <van-button type="danger" size="large">set up</van-button>
       </router-link>
     </div>
   </div>

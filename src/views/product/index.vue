@@ -12,18 +12,18 @@
     <section v-if="isSpike" class="progress-bar">
       <ul class="progress-left">
         <li class="spike-price">
-          <span class="true-price">￥1498.00</span>
+          <span class="true-price">Br. 1498.00</span>
           <span class="exchange-rate">1688USDT≈5600CM</span>
         </li>
         <li class="spike-bottom">
-          <del class="old-price">￥1498.00</del>
+          <del class="old-price">Br. 1498.00</del>
           <progress class="lm-progress" value="22" max="100"></progress>
         </li>
       </ul>
       <ul class="progress-right">
         <div class="right-content">
           <li class="end-time">
-            <i>距结束还剩:</i>
+            <i>Still left before the end:</i>
           </li>
           <li class="time-value">
             <i>18:26:50</i>
@@ -34,7 +34,7 @@
     <ul class="product-content">
       <li class="product-title">
         <div class="text-left">
-          <span class="force-value">0.5倍算力</span>
+          <span class="force-value">0.5 times computing power</span>
         </div>
         <div>
           <span class="heart-full" @click="isLike = !isLike">
@@ -44,34 +44,34 @@
         </div>
       </li>
       <li class="product-price">
-        <span>购买该商品可获得算力值，算力值可兑换CM币</span>
+        <span>Purchasing this product can obtain computing power points, which can be exchanged for CM coins.</span>
       </li>
 
       <li class="product-info">
-        <i>快递包邮</i>
-        <i>月销:888</i>
+        <i>Free express delivery</i>
+        <i>monthly sales:888</i>
       </li>
 
       <li class="item-info">
-        <van-field label="发货地" left-icon="location-o" disabled></van-field>
+        <van-field label="Place of shipment" left-icon="location-o" disabled></van-field>
       </li>
       <li class="item-info" @click="showPopup">
-        <van-field label="选择" disabled placeholder="选择颜色分类，尺码 "></van-field>
+        <van-field label="choose" disabled placeholder="Select color category, size "></van-field>
         <van-icon name="arrow" />
       </li>
       <li class="store-info">
         <div class="store-detail" @click="handleStoreName">
           <img src="../../assets/image/product/store-header.png" class="store-header" />
-          <span class="store-name">店铺名称</span>
+          <span class="store-name">Store name</span>
         </div>
         <div class="store-btn">
           <svg-icon icon-class="message-round"></svg-icon>
-          <van-button size="small" @click="handleConnectStore" type="danger">进店逛逛</van-button>
+          <van-button size="small" @click="handleConnectStore" type="danger">Go into the store and have a look</van-button>
         </div>
       </li>
     </ul>
     <div class="item-details">
-      <span @click="handleViewDetail">宝贝详情</span>
+      <span @click="handleViewDetail">Baby details</span>
     </div>
     <van-popup
       class="select-popup"
@@ -87,14 +87,14 @@
         <ul class="popup-top">
           <img src="http://gankai.gitee.io/vue-jd-h5/img/test2.f21b029b.png" />
           <li class="item-specification">
-            <span class="item-price">￥568</span>
-            <span class="item-count">库存2279件</span>
-            <span class="item-colors">选择颜色；尺码</span>
+            <span class="item-price">Br. 568</span>
+            <span class="item-count">2279 pieces in stock</span>
+            <span class="item-colors">Select color; size</span>
           </li>
         </ul>
         <ul class="popup-center">
           <li class="popup-color">
-            <span class="color-text">颜色</span>
+            <span class="color-text">color</span>
             <div class="color-list">
               <span
                 class="color-tag"
@@ -109,7 +109,7 @@
             </div>
           </li>
           <li class="popup-size">
-            <span class="size-text">尺码</span>
+            <span class="size-text">size</span>
             <div class="size-list">
               <span class="size-item">S</span>
               <span class="size-item">M</span>
@@ -122,22 +122,22 @@
             </div>
           </li>
           <li class="popup-quantity">
-            <span class="quantity-text">购买数量</span>
+            <span class="quantity-text">Purchase quantity</span>
             <van-stepper v-model="stepperValue" input-width="31px" button-size="12px" />
           </li>
         </ul>
       </section>
       <div class="product-footer">
         <van-action-bar>
-          <van-action-bar-button @click="handleAddToCart" type="warning" text="加入购物车" />
-          <van-action-bar-button type="danger" @click="handleToBuy" text="立即购买" />
+          <van-action-bar-button @click="handleAddToCart" type="warning" text="add to the cart" />
+          <van-action-bar-button type="danger" @click="handleToBuy" text="Buy it now" />
         </van-action-bar>
       </div>
     </van-popup>
     <div class="product-footer">
       <van-action-bar>
-        <van-action-bar-button @click="handleAddToCart" type="warning" text="加入购物车" />
-        <van-action-bar-button type="danger" @click="handleToBuy" text="立即购买" />
+        <van-action-bar-button @click="handleAddToCart" type="warning" text="add to the cart" />
+        <van-action-bar-button type="danger" @click="handleToBuy" text="Buy it now" />
       </van-action-bar>
     </div>
   </div>

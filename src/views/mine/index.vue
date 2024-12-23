@@ -7,10 +7,10 @@
         <router-link to="/register/phoneRegister" class="order-item" tag="span">/注册</router-link>
       </div> -->
       <ul class="user-info">
-        <li class="user-name">钻石王老五</li>
+        <li class="user-name">Diamond King Lao Wu</li>
         <li class="node-info">
-          <span class="sharing-node" @click="toShow">分享节点</span>
-          <span class="business-node">商家节点</span>
+          <span class="sharing-node" @click="toShow">Share node</span>
+          <span class="business-node">Merchant node</span>
         </li>
       </ul>
     </section>
@@ -18,38 +18,38 @@
       <ul class="info-list">
         <li class="info-item">
           <b>09</b>
-          <span>商品关注</span>
+          <span>Product attention</span>
         </li>
         <li class="info-item">
           <b>09</b>
-          <span>店铺关注</span>
+          <span>Store attention</span>
         </li>
         <li class="info-item">
           <b>09</b>
-          <span>我的足迹</span>
+          <span>my footprints</span>
         </li>
       </ul>
     </section>
     <section class="order-all">
       <router-link to="/order" class="look-orders" tag="span"
-        >查看全部订单>></router-link
+        >View all orders>></router-link
       >
       <ul class="order-list">
         <router-link to="/order/orderDetail" class="order-item" tag="li">
           <svg-icon icon-class="pending-pay"></svg-icon>
-          <span>待付款</span>
+          <span>payment</span>
         </router-link>
         <router-link to="/order/toBeDelivered" class="order-item" tag="li">
           <svg-icon icon-class="be-delivered"></svg-icon>
-          <span>待发货</span>
+          <span>shipment</span>
         </router-link>
         <router-link to="/order/pendingReceipt" class="order-item" tag="li">
           <svg-icon icon-class="pending-receipt"></svg-icon>
-          <span>待收货</span>
+          <span>receipt</span>
         </router-link>
         <router-link to="/order" class="order-item" tag="li">
           <svg-icon icon-class="all-orders"></svg-icon>
-          <span>退换/售后</span>
+          <span>Return</span>
         </router-link>
       </ul>
     </section>
@@ -59,14 +59,14 @@
         <router-link to="wallet/myWallet" class="option-item" tag="li">
           <div class="item-info">
             <svg-icon class="incon" icon-class="my-assets"></svg-icon>
-            <span>我的钱包</span>
+            <span>my wallet</span>
           </div>
           <van-icon name="arrow" color="#DBDBDB" />
         </router-link>
         <router-link to="/node/nodeApplication" class="option-item" tag="li">
           <div class="item-info">
             <svg-icon class="incon" icon-class="node-application"></svg-icon>
-            <span>节点申请</span>
+            <span>Node application</span>
           </div>
           <van-icon name="arrow" color="#DBDBDB" />
         </router-link>
@@ -76,14 +76,14 @@
               class="incon"
               icon-class="businessmen-stationed"
             ></svg-icon>
-            <span>商家入驻</span>
+            <span>Merchants settled in</span>
           </div>
           <van-icon name="arrow" color="#DBDBDB" />
         </router-link>
         <router-link to="/wallet/myWallet" class="option-item" tag="li">
           <div class="item-info">
             <svg-icon class="incon" icon-class="sharing-links"></svg-icon>
-            <span>分享链接</span>
+            <span>share link</span>
           </div>
           <van-icon name="arrow" color="#DBDBDB" />
         </router-link>
@@ -95,28 +95,28 @@
         <router-link to="/mine/shippingAddress" class="option-item" tag="li">
           <div class="item-info">
             <svg-icon class="incon" icon-class="shipping-address"></svg-icon>
-            <span>收货地址</span>
+            <span>Shipping address</span>
           </div>
           <van-icon name="arrow" color="#DBDBDB" />
         </router-link>
         <router-link to="/mine/messageCenter" class="option-item" tag="li">
           <div class="item-info">
             <svg-icon class="incon" icon-class="message-center"></svg-icon>
-            <span>消息中心</span>
+            <span>Message center</span>
           </div>
           <van-icon color="#DBDBDB" name="arrow" />
         </router-link>
         <router-link to="/mine/helpCenter" class="option-item" tag="li">
           <div class="item-info">
             <svg-icon class="incon" icon-class="help-center"></svg-icon>
-            <span>帮助中心</span>
+            <span>Help Center</span>
           </div>
           <van-icon color="#DBDBDB" name="arrow" />
         </router-link>
         <router-link to="/mine/setting" class="option-item" tag="li">
           <div class="item-info">
             <svg-icon class="incon" icon-class="setting"></svg-icon>
-            <span>设置</span>
+            <span>set up</span>
           </div>
           <van-icon color="#DBDBDB" name="arrow" />
         </router-link>
@@ -126,7 +126,7 @@
     <van-dialog
       class="node-dialog"
       v-model="show"
-      confirmButtonText="我知道啦"
+      confirmButtonText="I know"
       close-on-click-overlay
       confirmButtonColor="#3A3A3A"
       confirm-button-color="#FCE14B"
@@ -145,32 +145,32 @@
             fontSize: '14px',
             padding: '0 15px'
           }"
-          >我的节点数据</van-divider
+          >My node data</van-divider
         >
         <ul class="my-node-data">
           <li class="data-item">
             <img src="../../assets/image/product/share-node-img.png" alt />
-            <span class="node-text">分享节点</span>
+            <span class="node-text">Share node</span>
           </li>
           <li class="data-item">
             <img src="../../assets/image/product/area-node-img.png" alt />
-            <span class="node-text">区级节点</span>
+            <span class="node-text">District level node</span>
           </li>
           <li class="data-item">
             <img src="../../assets/image/product/municipal-node-img.png" alt />
-            <span class="node-text">市级节点</span>
+            <span class="node-text">Municipal node</span>
           </li>
           <li class="data-item">
             <img src="../../assets/image/product/state-node-img.png" alt />
-            <span class="node-text">州级节点</span>
+            <span class="node-text">State level node</span>
           </li>
           <li class="data-item">
             <img src="../../assets/image/product/industry-node-img.png" alt />
-            <span class="node-text">行业节点</span>
+            <span class="node-text">Industry node</span>
           </li>
           <li class="data-item">
             <img src="../../assets/image/product/super-node-img.png" alt />
-            <span class="node-text">超级节点</span>
+            <span class="node-text">super node</span>
           </li>
         </ul>
         <van-divider
@@ -183,7 +183,7 @@
           }"
         />
         <div class="node-bottom">
-          <span class="know-btn" @click="handleClose">我知道啦</span>
+          <span class="know-btn" @click="handleClose">I know</span>
           <img
             class="gray-img"
             src="../../assets/image/product/gray-node-img.png"

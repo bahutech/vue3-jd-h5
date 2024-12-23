@@ -11,26 +11,26 @@
   <div class="setting-page">
     <header class="page-header">
       <van-icon name="arrow-left" @click="$router.go(-1)" />
-      <div class="header-content">设置</div>
+      <div class="header-content">set up</div>
     </header>
 
     <section class="setting-content">
       <ul class="setting-list">
         <li class="setting-item">
-          <span class="setting-msg">消息提醒</span>
+          <span class="setting-msg">Message reminder</span>
           <van-switch v-model="checked" active-color="#D8182D" size="20px" />
         </li>
         <li class="setting-item">
-          <span class="setting-msg">清除缓存</span>
+          <span class="setting-msg">clear cache</span>
           <van-icon class="icon" name="arrow" />
         </li>
         <router-link tag="li" class="setting-item" to="/setting/aboutAs">
-          <span class="setting-msg">关于我们</span>
+          <span class="setting-msg">about Us</span>
           <van-icon class="icon" name="arrow" />
         </router-link>
       </ul>
     </section>
-    <van-button plain size="large" type="danger">退出登录</van-button>
+    <van-button plain size="large" type="danger">Log out</van-button>
   </div>
 </template>
 

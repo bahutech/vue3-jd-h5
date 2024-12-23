@@ -1,6 +1,6 @@
 <template>
   <div class="classify">
-    <header class="home-header">商品分类</header>
+    <header class="home-header">Category</header>
     <section class="search-wrap" ref="searchWrap">
       <list-scroll class="nav-side-wrapper">
         <ul class="nav-side">
@@ -10,8 +10,8 @@
             :class="{ active: currentIndex === index }"
             @click="selectMenu(index)"
           >
-            <span>{{ item.name.slice(0, 2) }}</span>
-            <span>{{ item.name.slice(2) }}</span>
+            <!-- <span>{{ item.name.slice(0, 2) }}</span> -->
+            <span>{{ item.name}}</span>
           </li>
         </ul>
       </list-scroll>
@@ -65,7 +65,7 @@ export default {
     ListScroll
   },
   setup(props) {
-    
+
     const { ctx } = getCurrentInstance();
     const $router = useRouter();
 

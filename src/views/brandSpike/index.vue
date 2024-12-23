@@ -45,24 +45,24 @@
                 <img class="item-img" src="../../assets/image/product/err0.png" />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br 988</span>
+                  <del>Br 1199</del>
                 </div>
               </li>
               <li class="item-content">
                 <img class="item-img" src="../../assets/image/product/err1.png" />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br 988</span>
+                  <del>Br 1199</del>
                 </div>
               </li>
               <li class="item-content">
                 <img class="item-img" src="../../assets/image/product/err1.png" />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br 988</span>
+                  <del>Br 1199</del>
                 </div>
               </li>
             </ul>
@@ -70,14 +70,14 @@
           <section class="header-card-1">
             <ul class="card-top">
               <li>
-                <b>机械手表专场</b>
+                <b>Mechanical Watches Special</b>
               </li>
               <li class="item-link">
-                <small class="small-text">瑞士原装 传统工艺</small>
+                <small class="small-text">Swiss original traditional craft</small>
                 <svg-icon icon-class="mini-right-btn"></svg-icon>
               </li>
               <li class="only-left">
-                <label for="countdown">仅剩</label>
+                <label for="countdown">only</label>
                 <div id="countdown">
                   <span>05</span>
                   <span>50</span>
@@ -90,24 +90,24 @@
                 <img class="item-img" src="../../assets/image/product/watch0.png" />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br988</span>
+                  <del>Br1199</del>
                 </div>
               </li>
               <li class="item-content">
                 <img class="item-img" src="../../assets/image/product/watch1.png" />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br988</span>
+                  <del>Br1199</del>
                 </div>
               </li>
               <li class="item-content">
                 <img class="item-img" src="../../assets/image/product/watch2.png" />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br988</span>
+                  <del>Br1199</del>
                 </div>
               </li>
             </ul>
@@ -115,14 +115,14 @@
           <section class="header-card-2">
             <ul class="card-top">
               <li>
-                <b>清洁洗剂专场</b>
+                <b>Cleaning detergent show</b>
               </li>
               <li class="item-link">
-                <small class="small-text">轻松洁净 持久亮丽</small>
+                <small class="small-text">Easy to clean Long-lasting brilliance</small>
                 <svg-icon icon-class="mini-right-btn"></svg-icon>
               </li>
               <li class="only-left">
-                <label for="countdown">仅剩</label>
+                <label for="countdown">only</label>
                 <div id="countdown">
                   <span>05</span>
                   <span>50</span>
@@ -135,24 +135,24 @@
                 <img class="item-img" src="../../assets/image/product/bule0.png" />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br 988</span>
+                  <del>Br 1199</del>
                 </div>
               </li>
               <li class="item-content">
                 <img class="item-img" src="../../assets/image/product/bule1.png" />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br 988</span>
+                  <del>Br 1199</del>
                 </div>
               </li>
               <li class="item-content">
                 <img class="item-img" src="../../assets/image/product/bule2.png" />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br 988</span>
+                  <del>Br 1199</del>
                 </div>
               </li>
             </ul>
@@ -169,7 +169,7 @@ export default {
   setup() {
     return {
       active: "1",
-      tabList: ["秒杀", "疯抢", "生活电器", "家居软饰", "平板电视"]
+      tabList: ["Flash Sale", "Crazy Grab", "Life Appliances", "Home Soft Furnishings", "Flat Screen TV"]
     };
   }
 };

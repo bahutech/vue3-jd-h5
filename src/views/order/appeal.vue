@@ -4,53 +4,53 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="white-btn"></svg-icon>
       </span>
-      <div class="header-content">商品申诉</div>
-      <router-link class="appeal-record" to="/order/appealRecord" tag="span">申诉记录</router-link>
+      <div class="header-content">Product complaints</div>
+      <router-link class="appeal-record" to="/order/appealRecord" tag="span">Appeal record</router-link>
     </header>
     <section class="order-card">
       <ul class="order-list">
         <li class="order-item">
           <div class="store-info">
             <img src="../../assets/image/product/store-headerM.png" class="header-img" />
-            <span>店铺名称</span>
+            <span>Store name</span>
           </div>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
-              <i>￥222</i>
+              <span>Nazha's new look</span>
+              <i>Br. 222</i>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model; specification; color;</span>
               <span>×2</span>
             </p>
           </div>
         </li>
         <li class="order-count">
-          <span>共2件商品,小计:</span>
-          <i>￥444</i>
+          <span>Total 2 items, subtotal:</span>
+          <i>Br. 444</i>
         </li>
       </ul>
     </section>
     <section class="info-form">
       <van-cell-group>
-        <van-field v-model="username" clearable label="用户名" placeholder="请输入姓名" />
-        <van-field v-model="phone" label="手机号" placeholder="请输入手机号" />
+        <van-field v-model="username" clearable label="username" placeholder="Please enter name" />
+        <van-field v-model="phone" label="手机号" placeholder="Please enter mobile phone number" />
         <van-field
           v-model="content"
           :autosize="{ minHeight: 150 }"
           type="textarea"
-          label="申诉内容"
-          placeholder="请输入申诉内容"
+          label="Complaint content"
+          placeholder="Please enter the complaint content"
         />
-        <van-field label-width="200px" disabled label="图片上传（最多可上传5张）" />
+        <van-field label-width="200px" disabled label="Upload pictures (up to 5 pictures can be uploaded)" />
       </van-cell-group>
       <van-uploader v-model="fileList" multiple :max-count="5" />
     </section>
     <div class="pay-btn">
-      <van-button type="danger" size="large">提交</van-button>
+      <van-button type="danger" size="large">submit</van-button>
     </div>
   </div>
 </template>

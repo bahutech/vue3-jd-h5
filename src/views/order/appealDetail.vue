@@ -4,33 +4,33 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="white-btn"></svg-icon>
       </span>
-      <div class="header-content">申诉详情</div>
-      <router-link class="appeal-record" to="/order/appealRecord" tag="span">申诉记录</router-link>
+      <div class="header-content">Complaint details</div>
+      <router-link class="appeal-record" to="/order/appealRecord" tag="span">Appeal record</router-link>
     </header>
     <section class="order-card">
       <ul class="order-list">
         <li class="order-item">
           <div class="store-info">
             <img src="../../assets/image/product/store-headerM.png" class="header-img" />
-            <span>店铺名称</span>
+            <span>Store name</span>
           </div>
         </li>
         <li class="order-info">
           <img src alt />
           <div class="order-detail">
             <p class="info-one">
-              <span>娜扎新装LOOK</span>
-              <i>￥222</i>
+              <span>Nazha's new look</span>
+              <i>Br. 222</i>
             </p>
             <p class="info-two">
-              <span>型号;规格;颜色;</span>
+              <span>Model;Specification;Color;</span>
               <span>×2</span>
             </p>
           </div>
         </li>
         <li class="order-count">
-          <span>共2件商品,小计:</span>
-          <i>￥444</i>
+          <span>Total 2 items, subtotal:</span>
+          <i>Br. 444</i>
         </li>
       </ul>
     </section>
@@ -60,7 +60,7 @@
       </ul>
     </section>
     <div class="pay-btn">
-      <van-button type="danger" @click="handlePay" size="large">补充申诉信息</van-button>
+      <van-button type="danger" @click="handlePay" size="large">Supplementary appeal information</van-button>
     </div>
   </div>
 </template>
@@ -70,10 +70,10 @@ export default {
   name: "",
   data() {
     return {
-      username: "某某人",
+      username: "someone",
       phone: "13548669666",
       time: "2019-06-06 16:24:30",
-      content: `今天下午，放了学，哥哥今天没上班，我们一起去逛鞋店，我喜欢上了一个帆布鞋，黑色的，89元，哥哥非常疼我，给我买下了这双鞋子。哥哥也要买鞋，他买了一个白鞋，74元，比我的便宜。因为爸爸妈妈今天加班，所以我们只能吃泡面，不过泡面也很好吃。`
+      content: `This afternoon, after school, my brother did not go to work today, so we went to a shoe store together. I fell in love with a pair of canvas shoes, black, 89 yuan. My brother loved me very much and bought me this pair of shoes. My brother also wanted to buy shoes. He bought a pair of white shoes for 74 yuan, which was cheaper than mine. Because mom and dad are working overtime today, we can only eat instant noodles, but instant noodles are also delicious.`
     };
   },
   created() {},

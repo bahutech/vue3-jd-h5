@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="white-btn"></svg-icon>
       </span>
-      <div class="header-content">收货地址</div>
+      <div class="header-content">Shipping address</div>
     </header>
 
     <section class="address-card">
@@ -15,11 +15,11 @@
         </li>
         <li class="card-info">
           <div class="info-name">
-            <span>我是谁</span>
-            <i>家</i>
+            <span>who I am</span>
+            <i>Home</i>
           </div>
           <div class="info-address">
-            <span>广东省深圳市宝安区福永地铁站C出口</span>
+            <span>Exit C of Fuyong Subway Station, Baoan District, Shenzhen City, Guangdong Province</span>
             <van-icon name="arrow" color="#D8182D" />
           </div>
           <span>136778769907</span>
@@ -34,11 +34,11 @@
         </li>
         <li class="card-info">
           <div class="info-name">
-            <span>我是谁</span>
-            <i>公司</i>
+            <span>who I am</span>
+            <i>company</i>
           </div>
           <div class="info-address">
-            <span>广东省深圳市宝安区福永地铁站C出口</span>
+            <span>Exit C of Fuyong Subway Station, Baoan District, Shenzhen City, Guangdong Province</span>
             <van-icon name="arrow" />
           </div>
           <span>136778769907</span>
@@ -53,11 +53,11 @@
         </li>
         <li class="card-info">
           <div class="info-name">
-            <span>我是谁</span>
-            <i>学校</i>
+            <span>who I am</span>
+            <i>School</i>
           </div>
           <div class="info-address">
-            <span>广东省深圳市宝安区福永地铁站C出口</span>
+            <span>Exit C of Fuyong Subway Station, Baoan District, Shenzhen City, Guangdong Province</span>
             <van-icon name="arrow" />
           </div>
           <span>136778769907</span>
@@ -67,7 +67,7 @@
 
     <div class="address-btn">
       <router-link to="/mine/addAddress">
-        <van-button plain type="danger" icon="plus" size="large">新增地址</van-button>
+        <van-button plain type="danger" icon="plus" size="large">Add address</van-button>
       </router-link>
     </div>
   </div>

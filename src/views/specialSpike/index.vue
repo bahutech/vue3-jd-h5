@@ -26,11 +26,11 @@
           <section class="header-card">
             <div class="card-top">
               <div class="top-left">
-                <span class="special-spike-text">特价秒杀 |</span>
-                <i class="low-sale">超低价特卖</i>
+                <span class="special-spike-text">Special price flash sale |</span>
+                <i class="low-sale">Super low price sale</i>
               </div>
               <div class="top-right">
-                <label class="only-left">仅剩</label>
+                <label class="only-left">only</label>
                 <van-count-down :time="timeData" class="time-count-down">
                   <template v-slot="timeData">
                     <span class="time-item" v-if="timeData.hours < 10">{{
@@ -60,8 +60,8 @@
                 />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br988</span>
+                  <del>Br1199</del>
                 </div>
               </li>
               <li class="item-content">
@@ -71,8 +71,8 @@
                 />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br988</span>
+                  <del>Br1199</del>
                 </div>
               </li>
               <li class="item-content">
@@ -82,8 +82,8 @@
                 />
                 <svg-icon icon-class="processbar"></svg-icon>
                 <div class="prices-content">
-                  <span class="real-price">¥988</span>
-                  <del>¥1199</del>
+                  <span class="real-price">Br988</span>
+                  <del>Br1199</del>
                 </div>
               </li>
             </ul>
@@ -97,15 +97,15 @@
               <ul class="card-info">
                 <li class="info-top">
                   <div class="item-title">
-                    高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪
-                    头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳
+High-resolution wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction
+                    Head-mounted wireless bluetooth noise reduction Head-mounted wireless bluetooth noise reduction Head-mounted earphones
                   </div>
-                  <span class="item-desc">正品大牌 产家直营</span>
+                  <span class="item-desc">Authentic big brand products directly sold by manufacturers</span>
                 </li>
                 <li>
-                  <p class="item-price">¥1988</p>
+                  <p class="item-price">Br1988</p>
                   <span class="item-hot">
-                    <span class="hot-text">热卖指数</span>
+                    <span class="hot-text">Hot selling index</span>
                     <span class="hot-index">
                       <i>99</i>
                     </span>
@@ -120,15 +120,15 @@
               <ul class="card-info">
                 <li class="info-top">
                   <div class="item-title">
-                    高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪
-                    头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳
+                    High-resolution wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction
+                    Head-mounted wireless bluetooth noise reduction Head-mounted wireless bluetooth noise reduction Head-mounted earphones
                   </div>
-                  <span class="item-desc">正品大牌 产家直营</span>
+                  <span class="item-desc">Authentic big brand products directly operated by manufacturers</span>
                 </li>
                 <li>
-                  <p class="item-price">¥1988</p>
+                  <p class="item-price">Br1988</p>
                   <span class="item-hot">
-                    <span class="hot-text">热卖指数</span>
+                    <span class="hot-text">Hot selling index</span>
                     <span class="hot-index">
                       <i>99</i>
                     </span>
@@ -143,15 +143,15 @@
               <ul class="card-info">
                 <li class="info-top">
                   <div class="item-title">
-                    高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪
-                    头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳
+                    High-resolution wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction
+                    Head-mounted wireless bluetooth noise reduction Head-mounted wireless bluetooth noise reduction Head-mounted earphones
                   </div>
-                  <span class="item-desc">正品大牌 产家直营</span>
+                  <span class="item-desc">Authentic big brand products directly operated by manufacturers</span>
                 </li>
                 <li>
-                  <p class="item-price">¥1988</p>
+                  <p class="item-price">Br1988</p>
                   <span class="item-hot">
-                    <span class="hot-text">热卖指数</span>
+                    <span class="hot-text">Hot selling index</span>
                     <span class="hot-index">
                       <i>99</i>
                     </span>
@@ -166,15 +166,15 @@
               <ul class="card-info">
                 <li class="info-top">
                   <div class="item-title">
-                    高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪
-                    头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳
+                    High-resolution wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction
+                    Head-mounted wireless bluetooth noise reduction Head-mounted wireless bluetooth noise reduction Head-mounted earphones
                   </div>
-                  <span class="item-desc">正品大牌 产家直营</span>
+                  <span class="item-desc">Authentic big brand products directly operated by manufacturers</span>
                 </li>
                 <li>
-                  <p class="item-price">¥1988</p>
+                  <p class="item-price">Br1988</p>
                   <span class="item-hot">
-                    <span class="hot-text">热卖指数</span>
+                    <span class="hot-text">Hot selling index</span>
                     <span class="hot-index">
                       <i>99</i>
                     </span>
@@ -189,15 +189,15 @@
               <ul class="card-info">
                 <li class="info-top">
                   <div class="item-title">
-                    高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪
-                    头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳
+                    High-resolution wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction
+                    Head-mounted wireless bluetooth noise reduction Head-mounted wireless bluetooth noise reduction Head-mounted earphones
                   </div>
-                  <span class="item-desc">正品大牌 产家直营</span>
+                  <span class="item-desc">Authentic big brand products directly sold by manufacturers</span>
                 </li>
                 <li>
-                  <p class="item-price">¥1988</p>
+                  <p class="item-price">Br1988</p>
                   <span class="item-hot">
-                    <span class="hot-text">热卖指数</span>
+                    <span class="hot-text">Hot selling index</span>
                     <span class="hot-index">
                       <i>99</i>
                     </span>
@@ -212,15 +212,15 @@
               <ul class="card-info">
                 <li class="info-top">
                   <div class="item-title">
-                    高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪
-                    头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳
+                   High-resolution wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction
+                    Head-mounted wireless bluetooth noise reduction Head-mounted wireless bluetooth noise reduction Head-mounted earphones
                   </div>
-                  <span class="item-desc">正品大牌 产家直营</span>
+                  <span class="item-desc">Authentic big brand products directly operated by manufacturers</span>
                 </li>
                 <li>
-                  <p class="item-price">¥1988</p>
+                  <p class="item-price">Br1988</p>
                   <span class="item-hot">
-                    <span class="hot-text">热卖指数</span>
+                    <span class="hot-text">Hot selling index</span>
                     <span class="hot-index">
                       <i>99</i>
                     </span>
@@ -242,7 +242,7 @@ export default {
     return {
       active: "1",
       timeData: 36000000,
-      tabList: ["秒杀", "疯抢", "生活电器", "家居软饰", "平板电视"]
+      tabList: ["Flash Sale", "Crazy Grab", "Life Appliances", "Home Soft Furnishings", "Flat Screen TV"]
     };
   },
   created() {},

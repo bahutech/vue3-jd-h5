@@ -4,18 +4,18 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="green-btn"></svg-icon>
       </span>
-      <div class="header-content">帮助中心</div>
+      <div class="header-content">Help Center</div>
     </header>
     <section class="message-card">
       <ul class="message-list">
         <li class="message-item">
           <div class="item-title">
             <svg-icon icon-class="product-help"></svg-icon>
-            <span>产品帮助</span>
+            <span>Product help</span>
           </div>
           <router-link to="/mine/feedback" class="item-title" tag="div">
             <svg-icon icon-class="feedback-svg"></svg-icon>
-            <span>问题反馈</span>
+            <span>Problem feedback</span>
           </router-link>
         </li>
       </ul>
@@ -23,46 +23,46 @@
     <section class="mine-content">
       <ul class="options-list">
         <li class="item-header">
-          <span>产品帮助</span>
+          <span>Product help</span>
         </li>
         <li class="option-item">
           <van-collapse v-model="activeNames.values" class="collapse-box">
-            <van-collapse-item title="会员帮助" name="1">
+            <van-collapse-item title="Member Help" name="1">
               <template>
-                <li class="help-item">如何修改登录密码？</li>
-                <li class="help-item">账号登录</li>
-                <li class="help-item">发现账号异常怎么办？</li>
+                <li class="help-item">How to change the login password?</li>
+                <li class="help-item">Account login</li>
+                <li class="help-item">What should I do if I find something unusual about my account?</li>
               </template>
             </van-collapse-item>
           </van-collapse>
         </li>
         <router-link to="/mine/messageCenter" class="option-item" tag="li">
           <div class="item-info">
-            <span>支持方式</span>
+            <span>Support method</span>
           </div>
           <van-icon color="#DBDBDB" name="arrow" />
         </router-link>
         <router-link to="/mine/helpCenter" class="option-item" tag="li">
           <div class="item-info">
-            <span>退货换货</span>
+            <span>Return or exchange</span>
           </div>
           <van-icon color="#DBDBDB" name="arrow" />
         </router-link>
         <router-link to="/mine/helpCenter" class="option-item" tag="li">
           <div class="item-info">
-            <span>商家帮助</span>
+            <span>Merchant help</span>
           </div>
           <van-icon color="#DBDBDB" name="arrow" />
         </router-link>
         <router-link to="/mine/helpCenter" class="option-item" tag="li">
           <div class="item-info">
-            <span>服务承诺</span>
+            <span>Service commitment</span>
           </div>
           <van-icon color="#DBDBDB" name="arrow" />
         </router-link>
         <router-link to="/mine/helpCenter" class="option-item" tag="li">
           <div class="item-info">
-            <span>联系我们</span>
+            <span>Contact us</span>
           </div>
           <van-icon color="#DBDBDB" name="arrow" />
         </router-link>

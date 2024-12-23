@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <img src="../../assets/icons/left-green-white.png" alt />
       </span>
-      <div class="header-content">超级节点申请</div>
+      <div class="header-content">Super node application</div>
     </header>
     <section class="area-content">
       <ul class="options-list">
@@ -14,17 +14,17 @@
               v-model="areaNode.country"
               @click="handleShowCountry"
               disabled
-              label="国家"
-              placeholder="中国"
+              label="nation"
+              placeholder="China"
             />
           </router-link>
           <van-icon name="arrow" color="#DBDBDB" />
         </li>
         <li class="option-item">
           <div class="item-info">
-            <van-field v-model="areaNode.country" disabled label="份数" placeholder="20009" />
+            <van-field v-model="areaNode.country" disabled label="number of copies" placeholder="20009" />
           </div>
-          <span style="color:#3A3A3A">份</span>
+          <span style="color:#3A3A3A">share</span>
         </li>
       </ul>
       <ul class="area-info">
@@ -32,14 +32,14 @@
           <b class="text-weight">2000006</b>
           <small class="text-small">USDT</small>
         </li>
-        <li class="total-text">共20009份</li>
+        <li class="total-text">20009 copies in total</li>
         <li class="area-count">
-          <small>*该节点共666份，现剩余节点还有65份</small>
+          <small>*There are 666 copies of this node, and there are still 65 copies left.</small>
         </li>
       </ul>
     </section>
     <div class="application-btn">
-      <van-button type="danger" @click="handleApplication" size="large">申请</van-button>
+      <van-button type="danger" @click="handleApplication" size="large">Apply</van-button>
     </div>
     <vue-pickers
       :show="show"
@@ -52,7 +52,7 @@
     <van-dialog
       class="node-dialog"
       v-model="showDialog"
-      title="确认支付"
+      title="Confirm payment"
       close-on-click-overlay
       confirmButtonColor="#3A3A3A"
       confirm-button-color="#FCE14B"
@@ -61,7 +61,7 @@
     >
       <ul class="dialog-content">
         <li class="content-tips">
-          <span>确认支付1003 USDT成为分享节点？</span>
+          <span>Confirm payment 1003 Will USDT become a sharing node?</span>
         </li>
         <li class="content-count">
           <span>USDT</span>
@@ -69,7 +69,7 @@
         </li>
         <li class="coin-pay">
           <div>
-            <label>支付</label>
+            <label>pay</label>
             <svg-icon v-if="item.icon" :icon-class="item.icon"></svg-icon>
             {{ item.text }}
           </div>
@@ -84,7 +84,7 @@
         </li>
         <drop-list class="drop-list-play" :config="configData" ref="droplist"></drop-list>
         <li class="content-btn">
-          <span class="know-btn" @click="handleClose">确认</span>
+          <span class="know-btn" @click="handleClose">confirm</span>
         </li>
       </ul>
     </van-dialog>
@@ -121,7 +121,7 @@ export default {
             action: this.handleCoinPay
           },
           {
-            text: "支付宝",
+            text: "Alipay",
             icon: "alipay-icon",
             action: this.handleAlipay
           }
@@ -129,26 +129,26 @@ export default {
       },
       defaultData: [
         {
-          text: "中国",
+          text: "China",
           value: "China"
         }
       ],
       pickData: {
         data1: [
           {
-            text: "中国",
+            text: "China",
             value: "China"
           },
           {
-            text: "支付宝",
+            text: "Alipay",
             value: "支付宝"
           },
           {
-            text: "微信",
+            text: "WeChat",
             value: "微信"
           },
           {
-            text: "银行卡",
+            text: "bank card",
             value: "银行卡"
           }
         ]

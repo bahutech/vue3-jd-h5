@@ -4,7 +4,7 @@
       <span class="return-btn" @click="$router.go(-1)">
         <svg-icon icon-class="transparent-btn"></svg-icon>
       </span>
-      <div class="header-content">优品排行</div>
+      <div class="header-content">Excellent product ranking</div>
       <span class="share-btn" @click="show = true">
         <svg-icon icon-class="share-btn"></svg-icon>
       </span>
@@ -43,7 +43,7 @@
                 <li>
                   <p class="item-price">{{ item.price }}</p>
                   <span class="item-hot">
-                    <span class="hot-text">热卖指数</span>
+                    <span class="hot-text">Hot selling index</span>
                     <span class="hot-index">
                       <i>{{ item.hotIndex }}</i>
                     </span>
@@ -72,36 +72,36 @@
             padding: '0 10px',
             margin: '15px 0'
           }"
-          >分享到</van-divider
+          >Share to</van-divider
         >
         <ul class="share-list">
           <li class="share-item">
             <svg-icon icon-class="we-char"></svg-icon>
-            <span class="share-text">微信好友</span>
+            <span class="share-text">WeChat friends</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="we-chat-friends"></svg-icon>
-            <span class="share-text">朋友圈</span>
+            <span class="share-text">Moments</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="we-blog"></svg-icon>
-            <span class="share-text">新浪微博</span>
+            <span class="share-text">Sina Weibo</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="qq-icon"></svg-icon>
-            <span class="share-text">QQ好友</span>
+            <span class="share-text">QQ friends</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="qq-space"></svg-icon>
-            <span class="share-text">QQ空间</span>
+            <span class="share-text">QQ space</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="copy-link"></svg-icon>
-            <span class="share-text">复制链接</span>
+            <span class="share-text">Copy link</span>
           </li>
         </ul>
         <li class="cancle-btn" @click="show = false">
-          <b class="cancle-text">取消</b>
+          <b class="cancle-text">Cancel</b>
         </li>
       </article>
     </van-popup>
@@ -119,37 +119,37 @@ export default {
         {
           img: require("../../assets/image/premiumRanking/demo0.png"),
           title:
-            "高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳",
-          desc: "正品大牌 产家直营",
-          price: "¥1988",
+            "High-resolution wireless Bluetooth noise reduction, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, headphones",
+          desc: "Genuine big brand products directly sold by manufacturers",
+          price: "Br1988",
           hotIndex: "99"
         },
         {
           img: require("../../assets/image/premiumRanking/demo0.png"),
           title:
-            "高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳",
-          desc: "正品大牌 产家直营",
-          price: "¥1988",
+            "High-resolution wireless Bluetooth noise reduction, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, headphones",
+          desc: "Genuine big brand products directly sold by manufacturers",
+          price: "Br1988",
           hotIndex: "99"
         },
         {
           img: require("../../assets/image/premiumRanking/demo0.png"),
           title:
-            "高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳",
-          desc: "正品大牌 产家直营",
-          price: "¥1988",
+            "High-resolution wireless Bluetooth noise reduction, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, headphones",
+          desc: "Genuine big brand products directly sold by manufacturers",
+          price: "Br1988",
           hotIndex: "99"
         },
         {
           img: require("../../assets/image/premiumRanking/demo0.png"),
           title:
-            "高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳",
-          desc: "正品大牌 产家直营",
-          price: "¥1988",
+            "High-resolution wireless Bluetooth noise reduction, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, wireless Bluetooth noise reduction for headphones, headphones",
+          desc: "Genuine big brands, direct sales from manufacturers",
+          price: "Br1988",
           hotIndex: "99"
         }
       ],
-      tabList: ["3C数码", "进口食品", "生活电器", "家居软饰", "平板电视"]
+      tabList: ["3C Digital", "Imported Food", "Life Appliances", "Home Soft Furnishings", "Flat Screen TV"]
     };
   },
   created() {},

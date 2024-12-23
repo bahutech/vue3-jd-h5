@@ -4,17 +4,17 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="green-btn"></svg-icon>
       </span>
-      <div class="header-content">消息中心</div>
+      <div class="header-content">Message center</div>
     </header>
     <section class="message-card">
       <ul class="message-list">
         <li class="message-item">
           <div class="item-title">
-            <van-tag color="#FFBF43">问题反馈</van-tag>
+            <van-tag color="#FFBF43">Problem feedback</van-tag>
             <span>2019-05-17 16:30:10</span>
           </div>
           <div class="message-content">
-            您的反馈我们已经收到，我们会及时跟踪改进，感谢一路有你
+            We have received your feedback and we will track and improve it in a timely manner. Thank you for being there along the way.
           </div>
         </li>
       </ul>
@@ -23,11 +23,11 @@
       <ul class="message-list">
         <li class="message-item">
           <div class="item-title">
-            <van-tag color="#FFBF43">问题反馈</van-tag>
+            <van-tag color="#FFBF43">Problem feedback</van-tag>
             <span>2019-05-17 16:30:10</span>
           </div>
           <div class="message-content">
-            您的反馈我们已经收到，我们会及时跟踪改进，感谢一路有你
+            We have received your feedback and we will track and improve it in a timely manner. Thank you for being there along the way.
           </div>
         </li>
       </ul>
@@ -36,11 +36,11 @@
       <ul class="message-list">
         <li class="message-item">
           <div class="item-title">
-            <van-tag color="#91C95B">订单通知</van-tag>
+            <van-tag color="#91C95B">Order notification</van-tag>
             <span>2019-05-17 16:30:10</span>
           </div>
           <div class="message-content">
-            您的反馈我们已经收到，我们会及时跟踪改进，感谢一路有你
+            We have received your feedback and we will track and improve it in a timely manner. Thank you for being there along the way.
           </div>
         </li>
       </ul>
@@ -49,11 +49,11 @@
       <ul class="message-list">
         <li class="message-item">
           <div class="item-title">
-            <van-tag color="#FFBF43">问题反馈</van-tag>
+            <van-tag color="#FFBF43">Problem feedback</van-tag>
             <span>2019-05-17 16:30:10</span>
           </div>
           <div class="message-content">
-            您的反馈我们已经收到，我们会及时跟踪改进，感谢一路有你
+            We have received your feedback and we will track and improve it in a timely manner. Thank you for being there along the way.
           </div>
         </li>
       </ul>

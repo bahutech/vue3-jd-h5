@@ -17,8 +17,8 @@
         <span>{{ popupTitle }}</span>
       </div>
       <div class="popup-buttons">
-        <span @click="cancelPopup">取消</span>
-        <span @click="confirmPopup">确认</span>
+        <span @click="cancelPopup">Cancel</span>
+        <span @click="confirmPopup">confirm</span>
       </div>
     </div>
   </div>

@@ -3,25 +3,25 @@ const Mock = require('mockjs')
 const hotData = {
   status: 0,
   data: [{
-    title: '小米手机',
+    title: 'Xiaomi mobile phone',
     hot: 1
   }, {
-    title: '笔记本',
+    title: 'notebook',
     hot: 1
   }, {
-    title: '电脑',
+    title: 'computer',
     hot: 0
   }, {
-    title: '平板',
+    title: 'flat',
     hot: 0
   }, {
-    title: '液晶电视',
+    title: 'LCD TV',
     hot: 1
   }, {
-    title: '家电',
+    title: 'Home appliances',
     hot: 0
   }, {
-    title: '玩具',
+    title: 'Toy',
     hot: 0
   }]
 }
@@ -60,151 +60,151 @@ const homeData = {
   }
   ],
   tabList: [{
-    title: '精选',
-    name: '猜你喜欢',
+    title: 'Featured',
+    name: 'Guess you like',
     list: [{
-      name: '美妆护肤品',
+      name: 'Beauty and skin care products',
       img: require('@/assets/image/classifyNursing/美妆-1.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 0.5,
       price: '$525'
     },
     {
-      name: '美妆护肤品',
+      name: 'Beauty and skin care products',
       img: require('@/assets/image/classifyNursing/美妆-2.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$525'
     },
     {
-      name: '美妆护肤品',
+      name: 'Beauty and skin care products',
       img: require('@/assets/image/classifyNursing/美妆-3.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.9,
       price: '$525'
     },
     {
-      name: '美妆护肤品',
+      name: 'Beauty and skin care products',
       img: require('@/assets/image/classifyNursing/美妆-4.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.6,
       price: '$525'
     },
     {
-      name: '美妆护肤品',
+      name: 'Beauty and skin care products',
       img: require('@/assets/image/classifyNursing/美妆-5.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.3,
       price: '$525'
     },
     {
-      name: '美妆护肤品',
+      name: 'Beauty and skin care products',
       img: require('@/assets/image/classifyNursing/美妆-6.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.7,
       price: '$525'
     },
 
     {
-      name: '多功能料理机',
+      name: 'Multifunctional food processor',
       img: require('@/assets/image/home/test1.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 0.5,
       price: '$125'
     },
     {
-      name: '遥控制空调扇',
+      name: 'Remote control air conditioning fan',
       img: require('@/assets/image/home/test2.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$245'
     },
     {
-      name: '时尚双肩包',
+      name: 'fashionable backpack',
       img: require('@/assets/image/home/test3.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 0.5,
       price: '$21'
     },
     {
-      name: '商务行李箱',
+      name: 'business suitcase',
       img: require('@/assets/image/home/test4.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.7,
       price: '$218'
     },
     {
-      name: '无线消噪耳机',
+      name: 'wireless noise canceling headphones',
       img: require('@/assets/image/home/test5.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 0.5,
       price: '$218'
     },
     {
-      name: '无线蓝牙耳机',
+      name: 'wireless bluetooth headphones',
       img: require('@/assets/image/home/test6.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$218'
     }
     ]
   },
   {
-    title: '时尚',
-    name: '潮流百搭',
+    title: 'Fashion',
+    name: 'Trendy and versatile',
     list: [{
-      name: '活力运动装',
+      name: 'active sportswear',
       img: require('@/assets/image/classifyNursing/运动装备-1.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$125'
     },
     {
-      name: '瑞士手表',
+      name: 'swiss watch',
       img: require('@/assets/image/classifyNursing/钟表-1.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 0.5,
       price: '$245'
     },
     {
-      name: '男鞋',
+      name: 'mens shoes',
       img: require('@/assets/image/classifyNursing/男鞋1.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.7,
       price: '$21'
     },
     {
-      name: '商务行李箱',
+      name: 'business suitcase',
       img: require('@/assets/image/home/test4.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 0.5,
       price: '$218'
     },
     {
-      name: '无线消噪耳机',
+      name: 'wireless noise canceling headphones',
       img: require('@/assets/image/home/test5.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.3,
       price: '$218'
     },
     {
-      name: '箱包',
+      name: 'Luggage',
       img: require('@/assets/image/classifyNursing/箱包1.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.3,
       price: '$218'
     },
     {
-      name: '水杯',
+      name: 'water cup',
       img: require('@/assets/image/classifyNursing/水杯0.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.7,
       price: '$218'
     },
     {
-      name: '无线蓝牙耳机',
+      name: 'wireless bluetooth headphones',
       img: require('@/assets/image/home/test6.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.6,
       price: '$218'
     }
@@ -213,115 +213,115 @@ const homeData = {
   },
   {
 
-    title: '数码',
-    name: '3C数码',
+    title: 'digital',
+    name: '3C digital',
     list: [{
-      name: '轻薄本',
+      name: 'Thin and light notebook',
       img: '//img13.360buyimg.com/focus/s140x140_jfs/t11071/195/2462134264/9117/cd0688bf/5a17ba79N18b9f3d4.png',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.3,
       price: '$125'
     },
     {
-      name: '游戏本',
+      name: 'game notebook',
       img: '//img30.360buyimg.com/focus/s140x140_jfs/t11155/36/2330310765/10690/eb6754c3/5a17ba96N49561fea.png',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 0.5,
       price: '$125'
     },
     {
-      name: '多功能手机',
+      name: 'multifunctional mobile phone',
       img: '//img10.360buyimg.com/focus/s140x140_jfs/t11503/241/2246064496/4783/cea2850e/5a169216N0701c7f1.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.7,
       price: '$125'
     },
     {
-      name: '全面屏手机',
+      name: 'Full screen mobile phone',
       img: '//img30.360buyimg.com/focus/s140x140_jfs/t18955/187/1309277884/11517/fe100782/5ac48d27N3f5bb821.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$245'
     },
     {
-      name: '游戏手机',
+      name: 'gaming phone',
       img: '//img20.360buyimg.com/focus/s140x140_jfs/t12022/66/917351804/2257/7ddc58e5/5a169232Ndf76f53c.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.6,
       price: '$21'
     },
     {
-      name: '拍照手机',
+      name: 'camera phone',
       img: '//img20.360buyimg.com/focus/s140x140_jfs/t12022/66/917351804/2257/7ddc58e5/5a169232Ndf76f53c.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.9,
       price: '$218'
     },
     {
-      name: '老年机',
+      name: 'Elderly machine',
       img: '//img12.360buyimg.com/focus/s140x140_jfs/t11461/339/2354953633/8254/8c8c50d3/5a169217N5d1b842e.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$218'
     },
     {
-      name: '女性手机',
+      name: 'women mobile phone',
       img: '//img12.360buyimg.com/focus/s140x140_jfs/t15790/6/2311892256/2742/5ed77924/5a9fa728Nbff29ad2.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$218'
     }
     ]
   },
   {
-    title: '超市',
-    name: '百货生鲜',
+    title: 'supermarket',
+    name: 'Department store fresh food',
     list: [{
-      name: '休闲零食',
+      name: 'casual snacks',
       img: '//img10.360buyimg.com/focus/s140x140_jfs/t19789/191/2614150696/17735/d2db9aca/5b02411eNb44a03f7.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.9,
       price: '$125'
     },
     {
-      name: '牛奶',
+      name: 'milk',
       img: '//img13.360buyimg.com/focus/s140x140_jfs/t17479/1/2588472716/22795/d676e57a/5b024117N06151eba.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.6,
       price: '$245'
     },
     {
-      name: '时尚双肩包',
-      img: require('@/assets/image/home/test3.png'),
-      title: '限量套装 新品上市',
+      name: 'Fashion Backpack',
+img: require('@/assets/image/home/test3.png'),
+      title: 'limited set New product launch',
       forceValue: 2.7,
       price: '$21'
     },
     {
       name: '酒水饮料',
       img: '//img14.360buyimg.com/focus/s140x140_jfs/t19432/178/2607825443/22589/446a22a2/5b023705N12de0824.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.6,
       price: '$21'
     },
     {
-      name: '商务行李箱',
+      name: 'Business suitcase',
       img: require('@/assets/image/home/test4.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$218'
     },
     {
-      name: '无线消噪耳机',
+      name: 'Wireless Noise Canceling Headphones',
       img: require('@/assets/image/home/test5.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$218'
     },
     {
-      name: '无线蓝牙耳机',
+      name: 'Wireless Bluetooth headset',
       img: require('@/assets/image/home/test6.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$218'
     }
@@ -330,47 +330,47 @@ const homeData = {
   },
   {
 
-    title: '生活',
-    name: '居家日用',
+    title: 'Life',
+    name: 'Daily use at home',
     list: [{
-      name: '实木餐桌',
+      name: 'solid wood dining table',
       img: '//img13.360buyimg.com/focus/s140x140_jfs/t12772/3/1793374412/9705/e633967a/5a28e6c9N8aaaea3f.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.7,
       price: '$125'
     },
     {
-      name: '椅子',
+      name: 'chair',
       img: '//img10.360buyimg.com/focus/s140x140_jfs/t13888/280/1737354934/3036/f94ecdf8/5a28e0d6N80f30096.jpg',
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$245'
     },
     {
-      name: '杯子',
+      name: 'cup',
       img: require('@/assets/image/classifyNursing/水杯3.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 2.3,
       price: '$21'
     },
     {
-      name: '商务行李箱',
+      name: 'business suitcase',
       img: require('@/assets/image/home/test4.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.9,
       price: '$218'
     },
     {
-      name: '无线消噪耳机',
+      name: 'wireless noise canceling headphones',
       img: require('@/assets/image/home/test5.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.3,
       price: '$218'
     },
     {
-      name: '杯子',
+      name: 'cup',
       img: require('@/assets/image/classifyNursing/水杯0.png'),
-      title: '限量套装 新品上市',
+      title: 'limited set New product launch',
       forceValue: 1.6,
       price: '$218'
     }
@@ -383,145 +383,145 @@ const homeData = {
 const categoryData = {
   status: 0,
   tabslabel: [{
-    label: '热门推荐',
+    label: 'Popular recommendations',
     active: true
   },
   {
-    label: '手机数码',
+    label: 'mobile',
     active: false
   },
   {
-    label: '电脑办公',
+    label: 'computer',
     active: false
   },
   {
-    label: '计生情趣',
+    label: 'family',
     active: false
   },
   {
-    label: '美妆护肤',
+    label: 'Beauty',
     active: false
   },
 
   {
-    label: '个人清洁',
+    label: 'cleanliness',
     active: false
   },
   {
-    label: '汽车生活',
+    label: 'car',
     active: false
   },
   {
-    label: '男装',
+    label: 'Mens',
     active: false
   },
   {
-    label: '女装',
+    label: 'womens clothing',
     active: false
   },
   {
-    label: '超市',
+    label: 'supermarket',
     active: false
   },
   {
-    label: '户外运动',
+    label: 'outdoor sports',
     active: false
   },
   {
-    label: '男装',
+    label: 'Mens',
     active: false
   },
   {
-    label: '女装',
+    label: 'womens clothing',
     active: false
   },
   {
-    label: '超市',
+    label: 'supermarket',
     active: false
   },
   {
-    label: '户外运动',
+    label: 'outdoor sports',
     active: false
   },
   {
-    label: '其他',
+    label: 'other',
     active: false
   }],
   categoryData: [{
-    name: '手机数码',
+    name: 'mobile',
     mainImgUrl: '//img20.360buyimg.com/mcoss/jfs/t16273/143/46476745/45673/cba0840c/5a28ef10N82ab81d3.jpg',
     list: [{
-      title: '手机通讯',
+      title: 'Cell phone communication',
       productList: [{
-        title: '手机',
+        title: 'cell phone',
         imgUrl: '//img10.360buyimg.com/focus/s140x140_jfs/t11503/241/2246064496/4783/cea2850e/5a169216N0701c7f1.jpg'
       },
       {
-        title: '全面屏手机',
+        title: 'Full screen mobile phone',
         imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t18955/187/1309277884/11517/fe100782/5ac48d27N3f5bb821.jpg'
       },
       {
-        title: '游戏手机',
+        title: 'gaming phone',
         imgUrl: '//img11.360buyimg.com/focus/s140x140_jfs/t11470/45/2362968077/2689/fb36d9a0/5a169238Nc8f0882b.jpg'
       },
       {
-        title: '拍照手机',
+        title: 'camera phone',
         imgUrl: '//img20.360buyimg.com/focus/s140x140_jfs/t12022/66/917351804/2257/7ddc58e5/5a169232Ndf76f53c.jpg'
       },
       {
-        title: '老年机',
+        title: 'Elderly machine',
         imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t11461/339/2354953633/8254/8c8c50d3/5a169217N5d1b842e.jpg'
       },
       {
-        title: '女性手机',
+        title: 'women mobile phone',
         imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t15790/6/2311892256/2742/5ed77924/5a9fa728Nbff29ad2.jpg'
       }
       ]
     },
     {
-      title: '手机配件',
+      title: 'mobile phone accessories',
       productList: [{
-        title: '数据线',
+        title: 'data line',
         imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t18055/312/1342501458/9462/4699ed8a/5ac48672N11cf61fe.jpg'
       },
       {
-        title: '手机壳',
+        title: 'Mobile phone case',
         imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t18502/160/1284774717/9251/feb8a496/5ac4878cN658cbb07.jpg'
       },
       {
-        title: '充电宝',
+        title: 'Power bank',
         imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t19537/23/1276961949/9676/f4b5be0d/5ac48791Nb224f939.jpg'
       },
       {
-        title: '手机贴膜',
+        title: 'Mobile phone film',
         imgUrl: '//img11.360buyimg.com/focus/s140x140_jfs/t17548/288/1331085893/6458/52545456/5ac486c6N0c8a93dc.jpg'
       },
       {
-        title: '耳机',
+        title: 'headphones',
         imgUrl: '//img10.360buyimg.com/focus/s140x140_jfs/t17284/353/1280266808/3696/32c00915/5ac486ccN2d8031c1.jpg'
       },
       {
-        title: '充电器',
+        title: 'Charger',
         imgUrl: '//img11.360buyimg.com/focus/s140x140_jfs/t16774/124/1318736793/3884/cb658723/5ac4874fN6bc007b0.jpg'
       }
       ]
     },
     {
-      title: '摄影摄像',
-      productList: [{
-        title: '单反相机',
+      title: 'Photography',
+productList: [{
+        title: 'SLR camera',
         imgUrl: '//img14.360buyimg.com/focus/s140x140_jfs/t13765/295/926307178/7966/3228af24/5a1679f2Nc2f659b6.jpg'
       },
       {
-        title: '数码相机',
+        title: 'digital camera',
         imgUrl: '//img20.360buyimg.com/focus/s140x140_jfs/t12814/251/897168610/8107/60a873f/5a1679caNada7f827.jpg'
       },
       {
-        title: '镜头',
+        title: 'Lens',
         imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t12154/164/880046972/2880/86b45b51/5a1679b9N42a5f8e5.jpg'
       },
       {
-        title: '户外器材',
+title: 'Outdoor Equipment',
         imgUrl: '//img10.360buyimg.com/focus/s140x140_jfs/t12586/176/939117172/2550/d16b4b6c/5a1679c3N67e2b3f1.jpg'
       }
       ]
@@ -530,20 +530,20 @@ const categoryData = {
     ]
   },
   {
-    name: '电脑办公',
+    name: 'computer office',
     mainImgUrl: '//img30.360buyimg.com/mcoss/jfs/t14743/292/279117506/48503/9b7d9f2c/5a28ea97N36cb4d16.jpg',
     list: [{
-      title: '热门分类',
+      title: 'Popular categories',
       productList: [{
-        title: '轻薄本',
+        title: 'Thin and light notebook',
         imgUrl: '//img13.360buyimg.com/focus/s140x140_jfs/t11071/195/2462134264/9117/cd0688bf/5a17ba79N18b9f3d4.png'
       },
       {
-        title: '游戏本',
+        title: 'game notebook',
         imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t11155/36/2330310765/10690/eb6754c3/5a17ba96N49561fea.png'
       },
       {
-        title: '机械键盘',
+        title: 'mechanical keyboard',
         imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t12304/245/965858782/6481/37cb5a9b/5a17ba5aN0406a1b5.jpg'
       },
       {
@@ -561,7 +561,7 @@ const categoryData = {
       ]
     },
     {
-      title: '外设产品',
+      title: 'Peripheral products',
       productList: [{
         title: '鼠标',
         imgUrl: '//img20.360buyimg.com/focus/s140x140_jfs/t11881/31/2355374158/3676/22da94de/5a16a5f0Nc6b32dda.jpg'
@@ -591,7 +591,7 @@ const categoryData = {
     ]
   },
   {
-    name: '家用电器',
+    name: 'household appliances',
     mainImgUrl: require('@/assets/image/home/test10.png'),
     list: [{
       title: '家用电器',
@@ -651,156 +651,156 @@ const categoryData = {
     }]
   },
   {
-    name: '美妆护肤',
+    name: 'Beauty and skin care',
     mainImgUrl: require('@/assets/image/home/test11.png'),
     list: [{
-      title: '美妆护肤',
+      title: 'Beauty and skin care',
       productList: [{
-        title: '美白',
+        title: 'Whitening',
         imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t19531/110/2538137867/14848/c3ec84ac/5afd3cc5N8aa4b7c8.jpg'
       },
       {
-        title: '防晒',
+        title: 'sun protection',
         imgUrl: '//img30.360buyimg.com/focus/s140x140_jfs/t17560/320/2504739891/10347/f04150c4/5afd3cbeN77d00886.jpg'
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-1.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-2.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-3.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-4.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-5.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-6.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-7.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-8.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-9.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-10.png')
       },
       {
-        title: '美妆',
+        title: 'Beauty',
         imgUrl: require('@/assets/image/classifyNursing/美妆-11.png')
       },
       {
-        title: '控油',
+        title: 'Oil control',
         imgUrl: '//img14.360buyimg.com/focus/s140x140_jfs/t19291/98/2577005836/12222/7107fb29/5afd3cc9N3add85ae.jpg'
       },
       {
-        title: '去黑头',
+        title: 'Remove blackheads',
         imgUrl: require('@/assets/image/classifyNursing/护理-1.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-2.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-3.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-4.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-5.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-6.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-7.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-9.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-10.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-11.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/护理-12.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/商品详情-1.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/商品详情-2.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/商品详情-3.png')
       },
       {
-        title: '护肤',
+        title: 'Skin care',
         imgUrl: require('@/assets/image/classifyNursing/商品详情-4.png')
       }
       ]
     }]
   },
   {
-    name: '钟表珠宝',
+    name: 'Watches and Jewelry',
     mainImgUrl: '',
     list: [{
-      title: '钟表珠宝',
+      title: 'Watches and Jewelry',
       productList: [{
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: '//img10.360buyimg.com/focus/s140x140_jfs/t14155/271/890296038/3841/f1adee7f/5a166fe1Nc6bd2f12.jpg'
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-1.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-2.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-3.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-4.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-5.png')
       },
       {
@@ -824,38 +824,38 @@ const categoryData = {
         imgUrl: require('@/assets/image/classifyNursing/手表-5.png')
       },
       {
-        title: '手表',
+        title: 'watch',
         imgUrl: require('@/assets/image/classifyNursing/手表-6.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-6.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-7.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-8.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-9.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-10.png')
       },
       {
-        title: '瑞士手表',
+        title: 'swiss watch',
         imgUrl: require('@/assets/image/classifyNursing/钟表-11.png')
       }
       ]
     }]
   },
   {
-    name: '户外运动',
+    name: 'outdoor sports',
     mainImgUrl: '',
     list: [{
       title: '户外运动',
@@ -917,10 +917,10 @@ const categoryData = {
   },
 
   {
-    name: '男装男鞋',
+    name: 'mens shoes',
     mainImgUrl: '',
     list: [{
-      title: '男装男鞋',
+      title: 'mens shoes',
       productList: [{
         title: '夹克',
         imgUrl: '//img13.360buyimg.com/focus/s140x140_jfs/t12514/85/571462957/6214/29cdf637/5a0e9496Necd5bd0e.jpg'
@@ -958,7 +958,7 @@ const categoryData = {
   },
 
   {
-    name: '女装女鞋',
+    name: 'womens clothing and shoes',
     mainImgUrl: '',
     list: [{
       title: '家用电器',
@@ -978,10 +978,10 @@ const categoryData = {
     }]
   },
   {
-    name: '母婴童装',
+    name: 'Mother and baby clothing',
     mainImgUrl: '',
     list: [{
-      title: '母婴童装',
+      title: 'Mother and baby clothing',
       productList: [{
         title: '套装',
         imgUrl: '//img14.360buyimg.com/focus/s140x140_jfs/t18790/111/673564180/2396/3d27d79a/5a9f94c1N5b0c8724.jpg'
@@ -989,7 +989,7 @@ const categoryData = {
     }]
   },
   {
-    name: '图书音像',
+    name: 'Books and audiovisuals',
     mainImgUrl: '',
     list: [{
       title: '图书音像',
@@ -1006,7 +1006,7 @@ const categoryData = {
   },
 
   {
-    name: '食品生鲜',
+    name: 'Fresh food',
     mainImgUrl: '',
     list: [{
       title: '家用电器',
@@ -1022,7 +1022,7 @@ const categoryData = {
     }]
   },
   {
-    name: '酒水饮料',
+    name: 'alcoholic beverages',
     mainImgUrl: '',
     list: [{
       title: '酒水饮料',
@@ -1033,7 +1033,7 @@ const categoryData = {
     }]
   },
   {
-    name: '家居家装',
+    name: 'Home decoration',
     mainImgUrl: '',
     list: [{
       title: '家居家装',
@@ -1042,43 +1042,43 @@ const categoryData = {
         imgUrl: '//img13.360buyimg.com/focus/s140x140_jfs/t12772/3/1793374412/9705/e633967a/5a28e6c9N8aaaea3f.jpg'
       },
       {
-        title: '椅子',
+        title: 'chair',
         imgUrl: '//img10.360buyimg.com/focus/s140x140_jfs/t13888/280/1737354934/3036/f94ecdf8/5a28e0d6N80f30096.jpg'
       },
       {
-        title: '杯子',
+        title: 'cup',
         imgUrl: require('@/assets/image/classifyNursing/水杯0.png')
       },
       {
-        title: '杯子',
+        title: 'cup',
         imgUrl: require('@/assets/image/classifyNursing/水杯1.png')
       },
       {
-        title: '杯子',
+        title: 'cup',
         imgUrl: require('@/assets/image/classifyNursing/水杯2.png')
       },
       {
-        title: '杯子',
+        title: 'cup',
         imgUrl: require('@/assets/image/classifyNursing/水杯3.png')
       },
       {
-        title: '杯子',
+        title: 'cup',
         imgUrl: require('@/assets/image/classifyNursing/水杯4.png')
       }
       ]
     }]
   },
   {
-    name: '箱包手袋',
+    name: 'luggage handbags',
     mainImgUrl: '',
     list: [{
-      title: '箱包手袋',
+      title: 'luggage handbags',
       productList: [{
-        title: '箱子',
+        title: 'box',
         imgUrl: '//img20.360buyimg.com/focus/s140x140_jfs/t12364/153/835832532/6803/5b58b137/5a152fb3Nb9f571ea.jpg'
       },
       {
-        title: '箱包',
+        title: 'Luggage',
         imgUrl: require('@/assets/image/classifyNursing/箱包0.png')
       },
       {
@@ -1102,12 +1102,12 @@ const categoryData = {
   },
 
   {
-    name: '玩具乐器',
+    name: 'toy musical instruments',
     mainImgUrl: '',
     list: [{
-      title: '家用电器',
+      title: 'household appliances',
       productList: [{
-        title: '遥控车',
+        title: 'remote control car',
         imgUrl: '//img12.360buyimg.com/focus/s140x140_jfs/t17575/123/2617650159/16720/74c14629/5b02a0c6N3f2770d9.jpg'
       }]
     }]
@@ -1120,23 +1120,23 @@ const recommend = {
   data: [{
     id: 0,
     imgUrl: require('@/assets/image/classifyNursing/运动装备-1.png'),
-    storeName: 'Nike旗舰店',
-    itemTitle: '运动装备',
+    storeName: 'Nike flagship store',
+    itemTitle: 'sports equipment',
     itemPrice: '$248',
     itemCount: '月销:888'
   },
   {
     id: 0,
     imgUrl: require('@/assets/image/classifyNursing/美妆-1.png'),
-    storeName: '美妆旗舰店',
-    itemTitle: '美妆',
+    storeName: 'Beauty flagship store',
+    itemTitle: 'Beauty',
     itemPrice: '$248',
     itemCount: '月销:888'
   },
   {
     id: 0,
     imgUrl: require('@/assets/image/classifyNursing/护理-1.png'),
-    storeName: '护理旗舰店',
+    storeName: 'Nursing flagship store',
     itemTitle: '护理',
     itemPrice: '$248',
     itemCount: '月销:888'

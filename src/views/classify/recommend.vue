@@ -4,13 +4,13 @@
       <span class="btn-left" @click="handleGoBack">
         <img src="../../assets/icons/left-green-white.png" />
       </span>
-      <div class="header-content">推荐</div>
+      <div class="header-content">recommend</div>
     </header>
     <div class="classify-search">
       <div class="header-search" @click="handleSearch">
         <svg-icon class="search-icon" icon-class="search"></svg-icon>
         <router-link tag="span" class="search-title" to="./search"
-          >推荐搜索 关键词</router-link
+          >Recommended search keywords</router-link
         >
       </div>
     </div>
@@ -33,11 +33,11 @@
                     src="../../assets/image/product/jd_logo.jpg"
                     class="header-img"
                   />
-                  <label>京东商城</label>
+                  <label>Jingdong Mall</label>
                 </p>
                 <p class="item-title">{{ item.name }}</p>
                 <p class="item-count">
-                  <i>￥：{{ item.price }}</i>
+                  <i>Br. ：{{ item.price }}</i>
                   <span>{{ item.itemCount }}</span>
                 </p>
               </div>

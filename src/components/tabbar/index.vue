@@ -18,10 +18,10 @@
       style="z-index: 100"
     >
       <van-tabbar-item name="index" icon="home-o" to="/index">
-        首页
+        Home
       </van-tabbar-item>
       <van-tabbar-item name="classify" icon="apps-o" to="/classify">
-        分类
+        Classification
       </van-tabbar-item>
       <van-tabbar-item
         name="shopCart"
@@ -29,10 +29,10 @@
         to="/shopCart"
         :badge="count"
       >
-        购物车
+        shopping cart
       </van-tabbar-item>
       <van-tabbar-item name="mine" icon="user-o" to="/mine">
-        我
+        Account
       </van-tabbar-item>
     </van-tabbar>
   </div>

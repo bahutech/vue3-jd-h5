@@ -4,34 +4,34 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="gray-btn"></svg-icon>
       </span>
-      <router-link class="appeal-record" to="/register/phoneRegister" tag="span">手机注册</router-link>
+      <router-link class="appeal-record" to="/register/phoneRegister" tag="span">Mobile phone registration</router-link>
     </header>
     <div class="mall-logo">
       <img src="../../assets/image/setting/logo.png" />
     </div>
     <section class="register-info">
-      <span class="phone-number">设置密码</span>
-      <p class="number-tips">6-20位数字、字母或字符</p>
+      <span class="phone-number">Set password</span>
+      <p class="number-tips">6-20 digits, letters or characters</p>
       <van-cell-group class="info-list">
         <van-field
           v-model="password"
           type="password"
           right-icon="eye-o"
           clearable
-          placeholder="密码"
+          placeholder="password"
         />
         <van-field
           v-model="password"
           type="password"
           right-icon="closed-eye"
           clearable
-          placeholder="再次确认密码"
+          placeholder="Confirm password again"
         />
         <van-field class="temp-empty" />
       </van-cell-group>
     </section>
     <div class="login-register-btns">
-      <span class="login-btn">确定</span>
+      <span class="login-btn">Sure</span>
     </div>
     <van-popup v-model="showPicker" position="bottom">
       <van-picker
@@ -52,7 +52,7 @@ export default {
       sms: "",
       value: "",
       showPicker: false,
-      columns: ["杭州", "宁波", "温州", "嘉兴", "湖州"]
+      columns: ["Hangzhou", "Ningbo", "Wenzhou", "Jiaxing", "Huzhou"]
     };
   },
   created() {},

@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <img src="../../assets/icons/left-green-white.png" alt />
       </span>
-      <div class="header-content">发现好货</div>
+      <div class="header-content">Found good stuff</div>
       <div class="option-btns">
         <router-link to="/search" class="search-btn" tag="span">
           <svg-icon class="search-icon" icon-class="search"></svg-icon>
@@ -36,15 +36,15 @@
               <ul class="card-info">
                 <li class="info-top">
                   <div class="item-title">
-                    高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪
-                    头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳
+High-resolution wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction
+                    Head-mounted wireless bluetooth noise reduction Head-mounted wireless bluetooth noise reduction Head-mounted earphones
                   </div>
                   <span class="item-desc"
-                    >轻量化设计，重量轻到超乎你的想象，让你行车过程更加…</span
+                    >Lightweight design, the weight is beyond your imagination, making your driving process more...</span
                   >
                 </li>
                 <li class="info-buttom">
-                  <p class="item-price">52人关注</p>
+                  <p class="item-price">52 people follow</p>
                   <span class="item-attention" @click="isLike = !isLike">
                     <svg-icon v-if="isLike" icon-class="heart-full"></svg-icon>
                     <svg-icon v-else icon-class="heart-null"></svg-icon>
@@ -59,15 +59,15 @@
               <ul class="card-info">
                 <li class="info-top">
                   <div class="item-title">
-                    高解析度无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪
-                    头戴耳无线蓝牙降噪 头戴耳无线蓝牙降噪 头戴耳
+                    High-resolution wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction Head-mounted wireless Bluetooth noise reduction
+                    Head-mounted wireless bluetooth noise reduction Head-mounted wireless bluetooth noise reduction Head-mounted earphones
                   </div>
                   <span class="item-desc"
-                    >轻量化设计，重量轻到超乎你的想象，让你行车过程更加…</span
+                    >Lightweight design, the weight is beyond your imagination, making your driving process more...</span
                   >
                 </li>
                 <li class="info-buttom">
-                  <p class="item-price">922人关注</p>
+                  <p class="item-price">922 people follow</p>
                   <span class="item-attention" @click="isLike = !isLike">
                     <svg-icon v-if="isLike" icon-class="heart-full"></svg-icon>
                     <svg-icon v-else icon-class="heart-null"></svg-icon>
@@ -120,11 +120,11 @@
           </li>
           <li class="share-item">
             <svg-icon icon-class="copy-link"></svg-icon>
-            <span class="share-text">复制链接</span>
+            <span class="share-text">Copy link</span>
           </li>
         </ul>
         <li class="cancle-btn" @click="show = false">
-          <b class="cancle-text">取消</b>
+          <b class="cancle-text">Cancel</b>
         </li>
       </article>
     </van-popup>
@@ -175,15 +175,15 @@ export default {
         },
         width: "33%",
         list: [
-          { text: "分享", icon: "share-btn-black", action: this.handleShare },
+          { text: "share", icon: "share-btn-black", action: this.handleShare },
           {
-            text: "我的关注",
+            text: "my concern",
             icon: "heart-null-black",
             action: handleMyFocus
           }
         ]
       },
-      tabList: ["推荐", "生活家", "数码控", "手机控", "时髦精", "型男精"]
+      tabList: ["Recommended", "Lifestyle Home", "Digital Control", "Mobile Controller", "Fashionable", "Sporty Man"]
     };
   }
 };

@@ -135,7 +135,7 @@ export default {
             action: this.handleCoinPay
           },
           {
-            text: "支付宝",
+            text: "Alipay",
             icon: "alipay-icon",
             action: this.handleAlipay
           }
@@ -143,26 +143,26 @@ export default {
       },
       defaultData: [
         {
-          text: "中国",
+          text: "China",
           value: "China"
         }
       ],
       pickData: {
         data1: [
           {
-            text: "中国",
+            text: "China",
             value: "China"
           },
           {
-            text: "支付宝",
+            text: "Alipay",
             value: "支付宝"
           },
           {
-            text: "微信",
+            text: "WeChat",
             value: "微信"
           },
           {
-            text: "银行卡",
+            text: "bank card",
             value: "银行卡"
           }
         ]

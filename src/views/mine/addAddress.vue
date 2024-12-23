@@ -13,30 +13,30 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="green-btn"></svg-icon>
       </span>
-      <div class="header-content">新增所在地区</div>
+      <div class="header-content">Add new region</div>
     </header>
     <section class="address-content">
       <ul class="address-list">
         <li class="address-item">
           <van-cell title="联系人" />
           <div class="address-name">
-            <van-field v-model="userName" placeholder="请输入姓名" />
+            <van-field v-model="userName" placeholder="Please enter name" />
             <div class="gender-tags">
-              <van-tag color="#E96258" plain>女士</van-tag>
-              <van-tag color="#3A3A3A" plain>男士</van-tag>
+              <van-tag color="#E96258" plain>Miss</van-tag>
+              <van-tag color="#3A3A3A" plain>men</van-tag>
             </div>
           </div>
         </li>
         <li class="address-item">
-          <van-cell title="电话" />
+          <van-cell title="Telephone" />
           <div class="address-name">
-            <van-field v-model="phoneNum" placeholder="手机号码" />
+            <van-field v-model="phoneNum" placeholder="phone number" />
           </div>
         </li>
         <li class="address-item">
           <van-cell title="所在地区" />
           <div class="address-name" @click="show = true">
-            <van-field v-model="are" disabled placeholder="请选择省市区" />
+            <van-field v-model="are" disabled placeholder="Please select a province or city" />
             <div>
               <svg-icon icon-class="arrow"></svg-icon>
             </div>
@@ -45,15 +45,15 @@
         <li class="address-item">
           <van-cell title="地址" />
           <div class="address-name">
-            <van-field v-model="room" placeholder="如：道路、门牌号、小区、楼栋号、单元室等" />
+            <van-field v-model="room" placeholder="Such as: road, house number, community, building number, unit room, etc." />
           </div>
         </li>
         <li class="address-item">
           <van-cell title="标签" />
           <div class="address-tags">
-            <van-tag color="#E96258" plain>家</van-tag>
-            <van-tag color="#E96258" plain>学校</van-tag>
-            <van-tag color="#E96258" plain>公司</van-tag>
+            <van-tag color="#E96258" plain>Home</van-tag>
+            <van-tag color="#E96258" plain>School</van-tag>
+            <van-tag color="#E96258" plain>company</van-tag>
           </div>
         </li>
       </ul>
@@ -61,7 +61,7 @@
 
     <div class="address-btn">
       <router-link to="/mine/addAddress">
-        <van-button type="danger" size="large">保存</van-button>
+        <van-button type="danger" size="large">keep</van-button>
       </router-link>
     </div>
     <van-popup v-model="show" position="bottom" :style="{ height: '40%' }">

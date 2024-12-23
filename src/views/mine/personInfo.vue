@@ -4,28 +4,28 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="white-btn"></svg-icon>
       </span>
-      <div class="header-content">个人资料</div>
+      <div class="header-content">personal data</div>
     </header>
     <section class="setting-content">
       <ul class="setting-list">
         <li class="setting-item">
-          <van-field label="头像" disabled />
+          <van-field label="avatar" disabled />
           <img src="../../assets/image/product/store-headerM.png" class="header-img" />
         </li>
         <li @click="handlePhone" class="setting-item">
-          <van-field label="昵称" disabled placeholder="昵称显示" />
+          <van-field label="Nick name" disabled placeholder="Nickname display" />
           <van-icon class="icon" name="arrow" />
         </li>
         <router-link class="setting-item" to="/mine/phoneNumberSetting" tag="li">
-          <van-field label="手机号" disabled placeholder="13547008799" />
+          <van-field label="Phone number" disabled placeholder="13547008799" />
           <van-icon class="icon" name="arrow" />
         </router-link>
         <router-link class="setting-item" to="/mine/settingMail" tag="li">
-          <van-field label="邮箱号" disabled placeholder="未设置" />
+          <van-field label="Email number" disabled placeholder="not set" />
           <van-icon class="icon" name="arrow" />
         </router-link>
         <router-link class="setting-item" to="/mine/changePassword" tag="li">
-          <van-field label="修改密码" disabled placeholder />
+          <van-field label="Change password" disabled placeholder />
           <van-icon class="icon" name="arrow" />
         </router-link>
       </ul>
@@ -34,19 +34,19 @@
     <van-popup v-model="show" position="bottom" get-container="#person-info">
       <div class="popup-content">
         <div class="popup-title">
-          <span>填写昵称</span>
+          <span>Fill in the nickname</span>
         </div>
         <van-cell-group>
-          <van-field clearable v-model="name" placeholder="请输入" />
+          <van-field clearable v-model="name" placeholder="Please enter" />
         </van-cell-group>
       </div>
 
       <div class="popup-btns">
         <button @click="show = false" class="popup-btn">
-          <span>取消</span>
+          <span>Cancel</span>
         </button>
         <button @click="show = false" class="popup-btn right-btn">
-          <span>确认</span>
+          <span>confirm</span>
         </button>
       </div>
     </van-popup>
@@ -64,7 +64,7 @@ export default {
     const handlePhone = () => {
       show.value = true;
     };
-    
+
     return {
       show,
       name,

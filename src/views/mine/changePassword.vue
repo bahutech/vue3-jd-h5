@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="green-btn"></svg-icon>
       </span>
-      <div class="header-content">修改密码</div>
+      <div class="header-content">Change password</div>
     </header>
     <section class="address-content">
       <ul class="address-list">
@@ -13,21 +13,21 @@
         </li>
         <li class="address-item">
           <div class="address-name">
-            <van-field v-model="value" placeholder="输入当前登录密码" />
+            <van-field v-model="value" placeholder="Enter current login password" />
           </div>
         </li>
         <li class="address-item">
-          <van-field v-model="value" placeholder="设置登录密码" />
+          <van-field v-model="value" placeholder="Set login password" />
         </li>
         <li class="address-item">
-          <van-field v-model="value" placeholder="重复登录密码" />
+          <van-field v-model="value" placeholder="Repeat login password" />
         </li>
       </ul>
     </section>
 
     <div class="address-btn">
       <router-link to="/mine/addAddress">
-        <van-button type="danger" size="large">保存</van-button>
+        <van-button type="danger" size="large">keep</van-button>
       </router-link>
     </div>
   </div>

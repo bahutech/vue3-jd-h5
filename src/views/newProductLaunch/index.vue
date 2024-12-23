@@ -5,7 +5,7 @@
         <!-- <svg-icon icon-class="green-btn"></svg-icon> -->
         <img src="../../assets/icons/left-green-white.png" alt />
       </span>
-      <div class="header-content">新品首发</div>
+      <div class="header-content">New product launch</div>
       <span class="share-btn" @click="show = true">
         <svg-icon icon-class="share-btn-black"></svg-icon>
       </span>
@@ -50,7 +50,7 @@
                 </li>
                 <li class="item-desc">
                   <b class="item-price">{{ item.price }}</b>
-                  <button class="my-btn">去抢购</button>
+                  <button class="my-btn">Go shopping</button>
                 </li>
               </ul>
             </ul>
@@ -74,19 +74,19 @@
             padding: '0 10px',
             margin: '15px 0'
           }"
-        >分享到</van-divider>
+        >Share to</van-divider>
         <ul class="share-list">
           <li class="share-item">
             <svg-icon icon-class="we-char"></svg-icon>
-            <span class="share-text">微信好友</span>
+            <span class="share-text">WeChat friends</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="we-chat-friends"></svg-icon>
-            <span class="share-text">朋友圈</span>
+            <span class="share-text">Moments</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="we-blog"></svg-icon>
-            <span class="share-text">新浪微博</span>
+            <span class="share-text">Sina Weibo</span>
           </li>
           <li class="share-item">
             <svg-icon icon-class="qq-icon"></svg-icon>
@@ -98,11 +98,11 @@
           </li>
           <li class="share-item">
             <svg-icon icon-class="copy-link"></svg-icon>
-            <span class="share-text">复制链接</span>
+            <span class="share-text">Copy link</span>
           </li>
         </ul>
         <li class="cancle-btn" @click="show = false">
-          <b class="cancle-text">取消</b>
+          <b class="cancle-text">Cancel</b>
         </li>
       </article>
     </van-popup>
@@ -120,27 +120,27 @@ export default {
         {
           title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
           name: "迪丽热巴同款",
-          price: "￥200"
+          price: "Br. 200"
         },
         {
           title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
           name: "迪丽热巴同款",
-          price: "￥200"
+          price: "Br. 200"
         },
         {
           title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
           name: "迪丽热巴同款",
-          price: "￥200"
+          price: "Br. 200"
         },
         {
           title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
           name: "迪丽热巴同款",
-          price: "￥200"
+          price: "Br. 200"
         },
         {
           title: "【玻尿酸巨补水新款面膜】大大发送的发送到发顺丰",
           name: "迪丽热巴同款",
-          price: "￥200"
+          price: "Br. 200"
         }
       ],
       tabList: [
@@ -169,37 +169,37 @@ export default {
         {
           name: "多功能料理机",
           img: require("../../assets/image/home/test1.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$125"
         },
         {
           name: "遥控制空调扇",
           img: require("../../assets/image/home/test2.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$245"
         },
         {
           name: "时尚双肩包",
           img: require("../../assets/image/home/test3.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$21"
         },
         {
           name: "商务行李箱",
           img: require("../../assets/image/home/test4.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$218"
         },
         {
           name: "无线消噪耳机",
           img: require("../../assets/image/home/test5.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$218"
         },
         {
           name: "无线蓝牙耳机",
           img: require("../../assets/image/home/test6.png"),
-          title: "限量套装 新品上市",
+          title: "limited set New product launch",
           price: "$218"
         }
       ],

@@ -13,7 +13,7 @@
       <div class="header-search">
         <svg-icon class="search-icon" icon-class="search"></svg-icon>
         <router-link tag="span" class="search-title" to="./search"
-          >推荐搜索 关键词</router-link
+          >search keywords</router-link
         >
       </div>
       <svg-icon
@@ -39,34 +39,35 @@
             class="tags-icon"
             icon-class="chain-cat-boutique"
           ></svg-icon>
-          <span class="item-text">链猫精品</span>
+          <span class="item-text">Fashion</span>
         </router-link>
         <router-link tag="li" class="tags-item" to="./search">
           <svg-icon class="tags-icon" icon-class="cm-area"></svg-icon>
-          <span class="item-text">CM专区</span>
+          <span class="item-text">Clothes</span>
         </router-link>
         <router-link tag="li" class="tags-item" to="./search">
           <svg-icon class="tags-icon" icon-class="collar-cm"></svg-icon>
-          <span class="item-text">领CM币</span>
+          <span class="item-text">Mobiles</span>
         </router-link>
         <router-link tag="li" class="tags-item" to="./search">
           <svg-icon class="tags-icon" icon-class="coupon-svg"></svg-icon>
-          <span class="item-text">领券</span>
+          <span class="item-text">Jeans</span>
         </router-link>
         <router-link tag="li" class="tags-item" to="./search">
           <svg-icon class="tags-icon" icon-class="chain-cat-member"></svg-icon>
-          <span class="item-text">链猫会员</span>
+          <span class="item-text">Electronics</span>
         </router-link>
+
       </ul>
     </section>
 
-    <section class="spike-area">
+    <!-- <section class="spike-area">
       <ul class="spike-top">
         <router-link class="top-left" to="/chainCatSpike" tag="li">
           <div class="item-top">
-            <span class="item-title">链猫秒杀</span>
+            <span class="item-title">Chain cat flash kill</span>
             <div class="time-text">
-              <span class="eight-time">8点场</span>
+              <span class="eight-time">Show at 8 o'clock</span>
               <van-count-down :time="timeData" class="time-count-down">
                 <template v-slot="timeData">
                   <span class="time-item" v-if="timeData.hours < 10">{{
@@ -90,27 +91,27 @@
           <div class="item-info">
             <div class="item-content">
               <img src="../../assets/image/home/demo1.png" />
-              <span class="new-price">¥298</span>
-              <span class="old-price">¥399</span>
+              <span class="new-price">Br298</span>
+              <span class="old-price">Br399</span>
             </div>
             <div class="item-content">
               <img src="../../assets/image/home/demo2.png" />
-              <span class="new-price">¥298</span>
-              <span class="old-price">¥399</span>
+              <span class="new-price">Br298</span>
+              <span class="old-price">Br399</span>
             </div>
             <div class="item-content">
               <img src="../../assets/image/home/demo3.png" />
-              <span class="new-price">¥298</span>
-              <span class="old-price">¥399</span>
+              <span class="new-price">Br298</span>
+              <span class="old-price">Br399</span>
             </div>
           </div>
         </router-link>
         <router-link class="top-right" to="/foundGoodGoods" tag="li">
           <div class="right-header">
-            <span class="cat-spike-text">发现好货</span>
-            <span class="tag-text">品质好物</span>
+            <span class="cat-spike-text">Found good stuff</span>
+            <span class="tag-text">Good quality goods</span>
           </div>
-          <span class="good-item">好物不贵</span>
+          <span class="good-item">Good things are not expensive</span>
           <div class="item-imgs">
             <img src="../../assets/image/home/demo4.png" />
             <img src="../../assets/image/home/demo5.png" />
@@ -120,36 +121,36 @@
 
       <ul class="spike-center">
         <router-link class="center-item" to="/specialSpike" tag="li">
-          <span class="center-title">特价秒杀</span>
-          <span class="center-descr">10元抢购</span>
+          <span class="center-title">Special price flash sale</span>
+          <span class="center-descr">10 Birr rush purchase</span>
           <img src="../../assets/image/home/demo6.png" />
         </router-link>
         <router-link class="center-item" to="/brandSpike" tag="li">
-          <span class="center-title">品牌秒杀</span>
-          <span class="center-descr" style="color: #dd3749">笔记本秒杀</span>
+          <span class="center-title">Brand Flash Sale</span>
+          <span class="center-descr" style="color: #dd3749">Notebook Flash Sale</span>
           <img src="../../assets/image/home/demo7.png" />
         </router-link>
         <router-link class="center-item" to="/newProductLaunch" tag="li">
-          <span class="center-title">新品首发</span>
-          <span class="center-descr" style="#FC6380">小黑盒新品</span>
+          <span class="center-title">New product launch</span>
+          <span class="center-descr" style="#FC6380">New little black box</span>
           <img src="../../assets/image/home/demo8.png" />
         </router-link>
         <router-link class="center-item" to="/premiumRanking" tag="li">
-          <span class="center-title">优品排行</span>
-          <span class="center-descr" style="color: #91c95b">榜上好物购</span>
+          <span class="center-title">Excellent product ranking</span>
+          <span class="center-descr" style="color: #91c95b">Best shopping on the list</span>
           <img src="../../assets/image/home/demo9.png" />
         </router-link>
       </ul>
       <ul class="spike-bottom">
         <li class="bottom-left">
           <div class="bottom-left-header">
-            <span class="big-buy">大牌购走</span>
+            <span class="big-buy">Big name shopping</span>
             <span class="goods-name">
-              戴尔
+              Dell
               <svg-icon icon-class="right-arrow"></svg-icon>
             </span>
           </div>
-          <span class="belive-big">信赖大品牌</span>
+          <span class="belive-big">Trust big brands</span>
           <div class="bottom-images">
             <img src="../../assets/image/home/demo10.png" />
             <img src="../../assets/image/home/demo11.png" />
@@ -157,17 +158,17 @@
         </li>
         <router-link class="bottom-left" to="/loveShop" tag="li">
           <div class="bottom-left-header">
-            <span class="big-buy">爱逛好店</span>
-            <span class="goods-name addColor">懂你所要</span>
+            <span class="big-buy">Love shopping in good stores</span>
+            <span class="goods-name addColor">understand what you want</span>
           </div>
-          <span class="belive-big">来逛个够</span>
+          <span class="belive-big">Come and have enough shopping</span>
           <div class="bottom-images">
             <img src="../../assets/image/home/demo12.png" />
             <img src="../../assets/image/home/demo13.png" />
           </div>
         </router-link>
       </ul>
-    </section>
+    </section> -->
 
     <div class="content-tabs">
       <van-tabs
@@ -187,8 +188,8 @@
           <template #title>
             <div class="slot-title">
               <b class="tab-title">{{ list.title }}</b>
-              <!-- <span class="tab-name">{{list.describe}}</span> -->
-              <span class="tab-name">{{ list.name }}</span>
+              <!-- <span class="tab-name">{{list.describe}}</span>
+              <span class="tab-name">{{ list.name }}</span>-->
             </div>
           </template>
 
@@ -205,7 +206,7 @@
                     <span class="goods-price">
                       <i>{{ item.productCnyPrice }}</i>
                       <span class="force-value"
-                        >{{ item.forceValue }}倍算力</span
+                        >{{ item.forceValue }}Times the computing power</span
                       >
                     </span>
                     <span class="add-icon" @click="addToCart($event, item)">
@@ -268,8 +269,12 @@ export default {
       show: false,
       el: ""
     });
-
+    ctx.$http.get("https://goldfish-app-b8tlt.ondigitalocean.app/pay/api/banners").then(res => {
+      console.log("BAHU BANNERS")
+      console.log(res)
+    });
     ctx.$http.get("http://test.happymmall.com/home/homeData").then(res => {
+      //console.log(res.data)
       const { images, tabList } = res.data;
       state.tabArray = tabList;
       state.homeImgs = images;

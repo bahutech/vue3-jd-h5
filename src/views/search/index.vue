@@ -7,14 +7,14 @@
 
       <div class="search-con">
         <svg-icon class="search-icon" icon-class="search"></svg-icon>
-        <input v-focus placeholder="搜索、关键词" v-model="searchText" />
+        <input v-focus placeholder="search, keywords" v-model="searchText" />
       </div>
-      <span @click="getSearch">搜索</span>
+      <span @click="getSearch">search</span>
     </div>
 
     <div class="search-content">
       <div class="hot-list">
-        <span class="hot-words">热搜词</span>
+        <span class="hot-words">Hot search words</span>
         <div>
           <span
             class="hot-detail"
@@ -30,7 +30,7 @@
 
       <div class="search-list history-list">
         <div class="history-search">
-          <span>历史搜索</span>
+          <span>Historical searches</span>
           <span @click="deleteHistory">
             <svg-icon icon-class="icon-delete"></svg-icon>
           </span>
@@ -103,7 +103,7 @@ export default {
       this.$store.commit("search/setHistory", dedupe(this.searchHistory));
     },
     deleteHistory() {
-      this.popupTitle = "确定删除搜索历史吗？";
+      this.popupTitle = "Are you sure you want to delete your search history?";
       this.popupShow = true;
     },
     confirmPopup() {

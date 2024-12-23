@@ -4,7 +4,7 @@
       <span class="btn-left" @click="$router.go(-1)">
         <svg-icon icon-class="green-btn"></svg-icon>
       </span>
-      <div class="header-content">新增所在地区</div>
+      <div class="header-content">Add new region</div>
     </header>
   </div>
 </template>
