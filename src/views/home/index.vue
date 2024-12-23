@@ -269,10 +269,10 @@ export default {
       show: false,
       el: ""
     });
-    ctx.$http.get("https://goldfish-app-b8tlt.ondigitalocean.app/pay/api/banners").then(res => {
+    /* ctx.$http.get("https://goldfish-app-b8tlt.ondigitalocean.app/pay/api/banners").then(res => {
       console.log("BAHU BANNERS")
       console.log(res)
-    });
+    }); */
     ctx.$http.get("http://test.happymmall.com/home/homeData").then(res => {
       //console.log(res.data)
       const { images, tabList } = res.data;
